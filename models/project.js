@@ -20,15 +20,28 @@ exports.get = function(id, cb) {
 };
 
 
+// function tmp(filePath, cb) {
+// 	var revisions = {};
+// 	var projects = {};
+//     parseLogFile('svn_log.xml', revisions, projects);
+//     // get related commits
+//     filePath = 'Assignment1/ChessGame/.idea/description.html';
+// 	var revision_arr = getRevisions(filePath, revisions);
+// 	// console.log('revision arr: ', revision_arr);
+//  //    console.log(rootPath);
+// 	// console.log('revision tree: ', revisions);
+//     cb(null,  revision_arr);
+// }
+
 // Get a particular project info
 exports.getCommitsForFile = function(filePath, cb) {
 	var revisions = {};
 	var projects = {};
     parseLogFile('svn_log.xml', revisions, projects);
     // get related commits
-    filePath = 'Assignment1/ChessGame/.idea/description.html';
+    // filePath = 'Assignment1/ChessGame/.idea/description.html';
 	var revision_arr = getRevisions(filePath, revisions);
-	console.log('revision arr: ', revision_arr);
+	// console.log('revision arr: ', revision_arr);
  //    console.log(rootPath);
 	// console.log('revision tree: ', revisions);
     cb(null,  revision_arr);
@@ -135,46 +148,6 @@ function parseListFile(listFileName, projects, rootPath){
     } 
   }
 }
-
-// //config for Azure database
-// const config = {
-//   user: 'xhuang62',
-//   password: '950426#Lisa',
-//   server: 'webportfolio-server.database.windows.net',
-//   database: 'web-portfolio-database',
-//   options: {encrypt: true}  
-// };
-
-
-// //requests
-// function projectInsertRequestFunc(name, date, version, author){
-//   const projectInsertRequest = new sql.Request();
-//   projectInsertRequest.input('name', sql.VarChar(50), name);
-//   projectInsertRequest.input('date', sql.VarChar(50), date);
-//   projectInsertRequest.input('version', sql.Int, version);
-//   projectInsertRequest.input('author', sql.VarChar, author);
-//   projectInsertRequest.execute('dbo.ProjectInsert', function(err, recordsets, returnValue) {
-//     if (err){
-//       console.log(err);
-//       return;
-//     }
-//     console.log("finish insert project!");
-//   });
-// }
-
-// function fileInsertRequestFunc(path, size, type, projectName){
-//   const fileInsertRequest = new sql.Request();
-//   fileInsertRequest.input('path', sql.VarChar(50), path);
-//   fileInsertRequest.input('type', sql.VarChar(50), type);
-//   fileInsertRequest.input('projectName', sql.VarChar(50), projectName);
-//   fileInsertRequest.input('size', sql.Int, size);
-//   fileInsertRequest.execute('dbo.FileInsert', function(err, recordsets, returnValue) {
-//     if (err){
-//       console.log(err);
-//       return;
-//     }
-//   });
-// }
 
 // function revisionInsertRequestFunc(number, author, message, date){
 //   const revisionInsertRequest = new sql.Request();
@@ -336,17 +309,15 @@ function getRevisions(filePath, revisions){
   var res = [];
   for (var num in revisions){
     var revision = revisions[num];
+  	console.log('====num: ', num);
     if(revision.containsFile(filePath)){
-
-      res.push({
-      	number: num,
-      	author: revision.author,
-      	date: revision.date
-      });
-    }
+      console.log('==has num: ', num);
+      res.push(res.push(revision));
+    } 
   }
   return res;
 }
+
 
 // module.exports={
 //   "parserListFile": parseListFile, 

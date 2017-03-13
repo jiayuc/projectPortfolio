@@ -11,7 +11,7 @@ const project = require('../models/project');
 router.get("/path", function (req, res) {
 	console.log('Entering filename?', req.query.filename); 
 	project.getCommitsForFile(req.query.filename, function (err, revisions) {
-  		console.log(revisions); // passed from model
+  		// console.log('revisions in /path: ', revisions); // passed from model
     // res.render('projects/project', {project: project});
 	  	res.render('detail', {
 			filepath: req.query.filename,
@@ -22,9 +22,9 @@ router.get("/path", function (req, res) {
 
 
 router.get('/:name', function (req, res) {
-
+  console.log('Entering /:name?');
   project.get(req.params.name, function (err, project) {
-  	console.log('inspect children node: ', project.fileTree.root.children); // passed from model
+  	// console.log('inspect children node: ', project.fileTree.root.children); // passed from model
     // res.render('projects/project', {project: project});
   	res.render('inner', {
 		name: project.name,

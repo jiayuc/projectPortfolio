@@ -69,8 +69,6 @@
 
 					</ul>			
 
-
-				<h1><%=filepath %></h1>
 					<h2>Loop</h2>
 					<% for(var i=0; i<revisions.length; i++) {%>
 						<li>Author: <%= revisions[i].author%></li>
@@ -78,6 +76,10 @@
 						<li>Date: <%=  revisions[i].date%></li>
 						<h3>Message: <%= revisions[i].message %></h3>
 					<% } %>
+
+					<div>
+						<iframe src="https://subversion.ews.illinois.edu/svn/sp17-cs242/jchen267/<%=filepath%>" style="width: 90%; height: 300px"></iframe>
+					</div>
 
 			</div><!-- end content -->
 		</section>

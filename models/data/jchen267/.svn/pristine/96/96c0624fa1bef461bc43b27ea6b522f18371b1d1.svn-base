@@ -1,6 +1,0 @@
-     * @param pieceToMove piece that just moved
-     * @param x x coordinate of the new position
-     * @param y y coordinate of the new position
-
-     * @param x x coordinate of the position to check
-     * @param y y coordinate of the position to check
