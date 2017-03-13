@@ -1,0 +1,2026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment2.2</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment2.2/.idea</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment2.2/.idea/inspectionProfiles</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/.idea/modules.xml</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/.idea/untitled.iml</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/Manual Test Plan.docx</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/degreeOfDegree.jpg</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment2.2/src</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment2.2/src/api</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.2/src/api/api.rb</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment2.2/src/graph</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.2/src/graph/edge.rb</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.2/src/graph/graph.rb</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.2/src/graph/node.rb</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment2.2/src/infoNetwork</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.2/src/infoNetwork/info_network.rb</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.2/src/infoNetwork/network.json</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment2.2/src/resource</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.2/src/resource/data.json</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment2.2/src/scrapper</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.2/src/scrapper/actor.rb</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment2.2/src/scrapper/config</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/src/scrapper/config/cacert.pem</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/src/scrapper/data.json</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/src/scrapper/film.rb</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment2.2/src/scrapper/log</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/src/scrapper/log/logfile.log</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/src/scrapper/log/ret.html</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/src/scrapper/log/ret.txt</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/src/scrapper/log/tmp.html</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/src/scrapper/web_scrapper.rb</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment2.2/tests</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/tests/actorTest.rb</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/tests/filmTest.rb</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/tests/graphTest.rb</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.2/tests/scrapperTest.rb</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment2.2/visualization</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.2/visualization/data.json</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.2/visualization/visualization.py</path>
+</paths>
+<msg>done</msg>
+</logentry>
+<logentry
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment2.1/.idea/inspectionProfiles</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment2.1/.idea/untitled.iml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment2.1/src/graph/edge.rb</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment2.1/src/graph/graph.rb</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment2.1/src/graph/node.rb</path>
+<path
+   action="D"
+   kind="file">/jchen267/Assignment2.1/src/hello.rb</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment2.1/src/scrapper/actor.rb</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment2.1/src/scrapper/config/cacert.pem</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment2.1/src/scrapper/film.rb</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment2.1/src/scrapper/log/logfile.log</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.1/src/scrapper/log/ret.html</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.1/src/scrapper/log/ret.txt</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.1/src/scrapper/log/tmp.html</path>
+<path
+   action="D"
+   kind="file">/jchen267/Assignment2.1/src/scrapper/webScrapper.rb</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.1/src/scrapper/web_scrapper.rb</path>
+<path
+   kind="file"
+   action="D">/jchen267/Assignment2.1/src/tmp.html</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment2.1/tests/actorTest.rb</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment2.1/tests/filmTest.rb</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment2.1/tests/graphTest.rb</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment2.1/tests/scrapperTest.rb</path>
+</paths>
+<msg>update</msg>
+</logentry>
+<logentry
+   revision="5859">
+<author>jchen267</author>
+<date>2017-02-27T21:28:45.008999Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment2.1</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment2.1/.idea</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.1/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.1/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.1/.idea/untitled.iml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.1/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment2.1/src</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment2.1/src/graph</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.1/src/graph/edge.rb</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.1/src/graph/graph.rb</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.1/src/graph/node.rb</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.1/src/hello.rb</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment2.1/src/scrapper</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.1/src/scrapper/actor.rb</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment2.1/src/scrapper/config</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.1/src/scrapper/config/cacert.pem</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.1/src/scrapper/film.rb</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment2.1/src/scrapper/log</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.1/src/scrapper/log/logfile.log</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.1/src/scrapper/webScrapper.rb</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.1/src/tmp.html</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment2.1/tests</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment2.1/tests/actorTest.rb</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.1/tests/filmTest.rb</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.1/tests/graphTest.rb</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment2.1/tests/scrapperTest.rb</path>
+</paths>
+<msg>first commit</msg>
+</logentry>
+<logentry
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/GUI-testplan.docx</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$GameControlPanel.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$PlayerPanel.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Main.class</path>
+<path
+   kind="file"
+   action="D">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Utility/Pair.class</path>
+<path
+   kind="file"
+   action="D">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/tmp</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BishopTest.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BoardTest.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/CoordinateTest.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/FlyerTest.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/KnightTest.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/PawnTest.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/QueenTest.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/RookTest.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/SpyTest.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/UserTest.class</path>
+<path
+   action="D"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-hopper.png</path>
+<path
+   action="D"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-hopper.png</path>
+<path
+   action="D"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/alfilBlack.png</path>
+<path
+   action="D"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/alfilWhite.png</path>
+<path
+   action="D"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/highlightframe.png</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/GUI/ScorePanel.java</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/Main.groovy</path>
+<path
+   action="D"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/Utility/Pair.java</path>
+<path
+   action="D"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/board/tmp</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/BishopTest.groovy</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/BoardTest.groovy</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/CoordinateTest.groovy</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/FlyerTest.groovy</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/KnightTest.groovy</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/PawnTest.groovy</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/QueenTest.groovy</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/RookTest.groovy</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/SpyTest.groovy</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/TileTest.groovy</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/UserTest.groovy</path>
+<path
+   action="D"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-hopper.png</path>
+<path
+   action="D"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-hopper.png</path>
+<path
+   action="D"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/alfilBlack.png</path>
+<path
+   kind="file"
+   action="D">/jchen267/Assignment1.2/src/com/resrc/alfilWhite.png</path>
+<path
+   kind="file"
+   action="D">/jchen267/Assignment1.2/src/com/resrc/highlightframe.png</path>
+</paths>
+<msg>update 2</msg>
+</logentry>
+<logentry
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/.idea/codeStyleSettings.xml</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/GUI-testplan.docx</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI$BoardPanel.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI$TilePanel.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$1.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$2.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$3.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$4.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$5.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$6.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$tileMouseListener.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$GameControlPanel.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$PlayerPanel.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Game.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Utility/Coordinate.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Utility/Pair.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/Board.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/Tile$color.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/Tile.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Bishop.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Flyer.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/King.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Knight.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Pawn.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Piece.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Queen.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Rook.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Spy.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BishopTest.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BoardTest.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/FlyerTest.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/KingTest.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/KnightTest.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/PawnTest.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/QueenTest.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/RookTest.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/SpyTest.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/UserTest.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/users/User.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-bishop-framed.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-flyer-framed.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-king-framed.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-knight-framed.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-pawn-framed.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-queen-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-rook-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-spy-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-bishop-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-flyer-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-king-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-knight-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-pawn-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-queen-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-rook-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-spy-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/frame.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/tmp.png</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/GUI/BoardGUI.java</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/GUI/JChess.java</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/GUI/ScorePanel.java</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/Game.java</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/Utility/Coordinate.java</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/Utility/Pair.java</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/board/Board.java</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/board/Tile.java</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/Flyer.java</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/King.java</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/Knight.java</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/Piece.java</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/Queen.java</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/Rook.java</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/Spy.java</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/BishopTest.groovy</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/BoardTest.groovy</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/FlyerTest.groovy</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/KingTest.groovy</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/KnightTest.groovy</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/PawnTest.groovy</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/QueenTest.groovy</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/RookTest.groovy</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/SpyTest.groovy</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/TileTest.groovy</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/UserTest.groovy</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/users/User.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-bishop-framed.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-flyer-framed.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-king-framed.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-knight-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/B-pawn-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/B-queen-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/B-rook-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/B-spy-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-bishop-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-flyer-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-king-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-knight-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-pawn-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-queen-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-rook-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-spy-framed.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/frame.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/tmp.png</path>
+</paths>
+<msg>updated 1</msg>
+</logentry>
+<logentry
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.2</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.2/.idea</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/.idea/description.html</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/.idea/project-template.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/.idea/uiDesigner.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/ChessGame.iml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/Doxyfile</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/GUI-testplan.docx</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/out</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/out/production</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/out/production/ChessGame</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/out/production/ChessGame/com</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/out/production/ChessGame/com/chess</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI$BoardPanel.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI$TilePanel.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$1.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$2.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$3.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$4.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$5.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$6.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$tileMouseListener.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$GameControlPanel.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$PlayerPanel.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Game.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Main.class</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Utility</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Utility/Coordinate.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Utility/Pair.class</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/Board.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/Tile$color.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/Tile.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/tmp</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Bishop.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Flyer.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/King.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Knight.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Pawn.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Piece.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/PieceType.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Queen.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Rook.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Spy.class</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BishopTest.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BoardTest.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/CoordinateTest.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/FlyerTest.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/KingTest.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/KnightTest.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/PawnTest.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/QueenTest.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/RookTest.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/SpyTest.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/TileTest.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/UserTest.class</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/users</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/users/User.class</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-bishop.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-flyer.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-hopper.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-king.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-knight.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-pawn.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-queen.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-rook.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-spy.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-bishop.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-flyer.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-hopper.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-king.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-knight.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-pawn.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-queen.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-rook.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-spy.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/alfilBlack.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/alfilWhite.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/highlightframe.png</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.2/src</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.2/src/com</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.2/src/com/chess</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.2/src/com/chess/GUI</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/GUI/BoardGUI.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/GUI/JChess.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/GUI/ScorePanel.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/Game.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/Main.groovy</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.2/src/com/chess/Utility</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/Utility/Coordinate.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/Utility/Pair.java</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/src/com/chess/board</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/board/Board.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/board/Tile.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/board/tmp</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/src/com/chess/pieces</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Bishop.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Flyer.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/King.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Knight.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Pawn.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Piece.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/PieceType.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/pieces/Rook.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/pieces/Spy.java</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests/BishopTest.groovy</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests/BoardTest.groovy</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests/CoordinateTest.groovy</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests/FlyerTest.groovy</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests/KingTest.groovy</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests/KnightTest.groovy</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests/PawnTest.groovy</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests/QueenTest.groovy</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/RookTest.groovy</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/SpyTest.groovy</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/TileTest.groovy</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/UserTest.groovy</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/src/com/chess/users</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/users/User.java</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.2/src/com/resrc</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/B-bishop.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/B-flyer.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/B-hopper.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-king.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-knight.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-pawn.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-queen.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-rook.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-spy.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-bishop.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-flyer.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-hopper.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-king.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-knight.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-pawn.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-queen.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-rook.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-spy.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/alfilBlack.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/alfilWhite.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/highlightframe.png</path>
+</paths>
+<msg>week 3</msg>
+</logentry>
+<logentry
+   revision="4407">
+<author>jchen267</author>
+<date>2017-02-13T21:56:03.750380Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/GUI-testplan.docx</path>
+</paths>
+<msg>add test plan</msg>
+</logentry>
+<logentry
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+<paths>
+<path
+   action="D"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.1</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.1/.idea</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.1/.idea/uiDesigner.xml</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.1/ChessGame.iml</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.1/Doxyfile</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.1/src</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.1/src/com</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.1/src/com/chess</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.1/src/com/chess/GUI</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/GUI/BoardGUI.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/GUI/JChess.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/Game.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/Main.groovy</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.1/src/com/chess/Utility</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/Utility/Coordinate.java</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.1/src/com/chess/board</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/board/Board.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/board/Tile.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/board/tmp</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.1/src/com/chess/pieces</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.1/src/com/chess/pieces/King.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.1/src/com/chess/pieces/Knight.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.1/src/com/chess/pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.1/src/com/chess/pieces/Piece.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.1/src/com/chess/pieces/PieceType.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.1/src/com/chess/pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.1/src/com/chess/pieces/Rook.java</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1.1/src/com/chess/tests</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.1/src/com/chess/tests/BoardTest.groovy</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.1/src/com/chess/tests/CoordinateTest.groovy</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1.1/src/com/chess/tests/FlyerTest.groovy</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/tests/KingTest.groovy</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/tests/KnightTest.groovy</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/tests/PawnTest.groovy</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/tests/RookTest.groovy</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/tests/SpyTest.groovy</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/tests/TileTest.groovy</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/tests/UserTest.groovy</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1.1/src/com/chess/users</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/users/User.java</path>
+</paths>
+<msg>week 2: chess pt-2</msg>
+</logentry>
+<logentry
+   revision="3474">
+<author>jchen267</author>
+<date>2017-02-06T21:56:35.546221Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/COMMIT_EDITMSG</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/HEAD</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/config</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/description</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/hooks</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/hooks/applypatch-msg.sample</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/hooks/commit-msg.sample</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/hooks/post-update.sample</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/hooks/pre-applypatch.sample</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/hooks/pre-commit.sample</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/hooks/pre-push.sample</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/hooks/pre-rebase.sample</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/hooks/pre-receive.sample</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/hooks/prepare-commit-msg.sample</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/hooks/update.sample</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/index</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/info</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/info/exclude</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/logs</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/logs/HEAD</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/logs/refs</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/logs/refs/heads</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/logs/refs/heads/master</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/logs/refs/remotes</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/logs/refs/remotes/origin</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/logs/refs/remotes/origin/master</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/00</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/00/9b002c698335765099b722ca0eafbdee62b6f0</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/36</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/36/e0001f7290d5eb167d15c1f04adb53f8f601e7</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/3b</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/3b/8510490b3624b25f029cc4e33ca45dd79cf780</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/41</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/41/1d734c9ccf4614838628b2d9589da0ac84738a</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/4f</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/4f/e5395c415a487db380b2c3710b558559533c76</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/4f/e63545e01ceec4929868ee3d42b936049d057f</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/52</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/52/ed7ef5b564811c35fc1c6166a55920c6c66964</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/53</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/53/eb0abdac1c88115daf8b6ad605cc9e3449ea8d</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/61</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/61/e2e86330a75a5b125637fa6480cd077b67b9e6</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/64</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/64/9865f03574bb78d6527f0cc17105a0b3235650</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/67</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/67/1e8fd080a887fbc44de58da49e19ad7f1be638</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/7b</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/7b/21ff798beb2a5d24c0d3228cbd67e454c5563e</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/7b/dca9fbf310604ff9d21c4118b0e2af4ca1aa86</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/8d</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/8d/05bc93235ea747e4b6c7835db7a313f1114e28</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/8d/1aca67cac4f977aeb952b299e92a9beb1b441c</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/ac</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/ac/5c1d7c7bb07d8a914e6af9a396991448ff4be7</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/b5</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/b5/28ab13c4095e21270b1866c27803c07d8faaab</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/bc</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/bc/da93bc3aeb34f65063b21ac452aedf218546db</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/c0</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/c0/3c8381d17e786dcc96e85bee3dc9212113e4e0</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d1</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d1/d79cd5b4af053064a7414758b6dbb70d3f97e2</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d2</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d2/592a0039d1abfeeebc520d52d154ab7a18fb3e</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d5</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d5/c074327501eaec3fe451ed56ce5160f1e97e16</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d6</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d6/54fa49c95d086bd53b340aa026baa249f42280</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d9</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/d9/d1a8b542839d8a54941aceb81e5989a7affd8a</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/d9/d32b4c183273acc8d3b56e83684e7af5919337</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/e0</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/e0/6d9f8e8fdb9c1f2443cd3dbf2a3e9165843969</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/e5</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/e5/bee7f530b126fe289e510c6d41f2f03c98f68c</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/e7</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/e7/af897dc5282e3570762ef9d8b92fee057f867c</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/e9</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/e9/6534fb27b68192f27f985d3879e173ec77adb8</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/ec</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/ec/11555969b6cdc649dfe83f230afc3358053ba1</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/f8</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/f8/ac7b56619305f63fc9a4318a4412bf68b093a4</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/info</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/pack</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/refs</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/refs/heads</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/refs/heads/master</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/refs/remotes</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/refs/remotes/origin</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/refs/remotes/origin/master</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/refs/tags</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.idea</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.idea/description.html</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.idea/project-template.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.idea/uiDesigner.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/ChessGame.iml</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/out</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/out/production</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/out/production/ChessGame</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/Main.class</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/board</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/board/Tile$color.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/board/Tile.class</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Bishop.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Coordinate.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/CoordinateTest.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/King.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Knight.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Pawn.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Piece.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/PieceType.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Queen.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Rook.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/RookTest.class</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/users</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/users/User.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/users/UserTest.class</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/src</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/src/com</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/Main.java</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/board</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/board/Board.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/board/BoardTest.groovy</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/board/Tile.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/board/TileTest.groovy</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/src/com/chess/pieces</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Bishop.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Coordinate.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/CoordinateTest.groovy</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/King.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/KingTest.groovy</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Knight.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Pawn.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Piece.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/PieceType.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Queen.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Rook.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/RookTest.groovy</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/tests</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/users</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/users/User.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/users/UserTest.groovy</path>
+</paths>
+<msg>unfinished by due 1</msg>
+</logentry>
+<logentry
+   revision="1347">
+<author>jchen267</author>
+<date>2017-01-29T01:33:55.228487Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment0</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/.classpath</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment0/.idea</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/.project</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment0/.settings</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/COPYING</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/assign0.iml</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment0/bin</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment0/bin/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/bin/lanSimulation/LANSimulation.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/bin/lanSimulation/Network.class</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment0/bin/lanSimulation/internals</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/bin/lanSimulation/internals/Node.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/bin/lanSimulation/internals/Packet.class</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment0/bin/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/bin/lanSimulation/tests/LANTests.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/codeEg400.go</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment0/doc</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/doc/LANSimulationDocument.pdf</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/doc/README</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/doc/RefactoringAssignment.pdf</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/doc/toDoList</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/expectedOutput.txt</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/javadoc.xml</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment0/out</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment0/out/production</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment0/out/production/assign0</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment0/out/production/assign0/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/out/production/assign0/lanSimulation/LANSimulation.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/out/production/assign0/lanSimulation/Network.class</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment0/out/production/assign0/lanSimulation/internals</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/out/production/assign0/lanSimulation/internals/Node.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/out/production/assign0/lanSimulation/internals/Packet.class</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment0/out/production/assign0/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/out/production/assign0/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/out/production/assign0/lanSimulation/tests/LANTests.class</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment0/src</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment0/src/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/src/lanSimulation/LANSimulation.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/src/lanSimulation/Network.java</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment0/src/lanSimulation/internals</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/src/lanSimulation/internals/Node.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/src/lanSimulation/internals/Packet.java</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment0/src/lanSimulation/tests</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/src/lanSimulation/tests/LANTests.java</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/useOutput.txt</path>
+</paths>
+<msg>should be done</msg>
+</logentry>
+<logentry
+   revision="78">
+<author>root</author>
+<date>2017-01-24T19:28:03.500939Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/jchen267</path>
+</paths>
+<msg>created directory jchen267</msg>
+</logentry>
+</log>

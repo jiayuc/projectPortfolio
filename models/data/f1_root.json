@@ -1,0 +1,105 @@
+{
+    path: 'Assignment0',
+    size: -1,
+    type: 'dir',
+    children: [FileNode {
+            path: 'Assignment0/.classpath',
+            size: '307',
+            type: 'others',
+            children: [],
+            parent: 'Assignment0'
+        },
+        FileNode {
+            path: 'Assignment0/.idea',
+            size: -1,
+            type: 'dir',
+            children: [Object],
+            parent: 'Assignment0'
+        },
+        FileNode {
+            path: 'Assignment0/.project',
+            size: '362',
+            type: 'others',
+            children: [],
+            parent: 'Assignment0'
+        },
+        FileNode {
+            path: 'Assignment0/.settings',
+            size: -1,
+            type: 'dir',
+            children: [Object],
+            parent: 'Assignment0'
+        },
+        FileNode {
+            path: 'Assignment0/COPYING',
+            size: '18011',
+            type: 'others',
+            children: [],
+            parent: 'Assignment0'
+        },
+        FileNode {
+            path: 'Assignment0/assign0.iml',
+            size: '660',
+            type: 'others',
+            children: [],
+            parent: 'Assignment0'
+        },
+        FileNode {
+            path: 'Assignment0/bin',
+            size: -1,
+            type: 'dir',
+            children: [Object],
+            parent: 'Assignment0'
+        },
+        FileNode {
+            path: 'Assignment0/codeEg400.go',
+            size: '14047',
+            type: 'others',
+            children: [],
+            parent: 'Assignment0'
+        },
+        FileNode {
+            path: 'Assignment0/doc',
+            size: -1,
+            type: 'dir',
+            children: [Object],
+            parent: 'Assignment0'
+        },
+        FileNode {
+            path: 'Assignment0/expectedOutput.txt',
+            size: '2980',
+            type: 'others',
+            children: [],
+            parent: 'Assignment0'
+        },
+        FileNode {
+            path: 'Assignment0/javadoc.xml',
+            size: '393',
+            type: 'others',
+            children: [],
+            parent: 'Assignment0'
+        },
+        FileNode {
+            path: 'Assignment0/out',
+            size: -1,
+            type: 'dir',
+            children: [Object],
+            parent: 'Assignment0'
+        },
+        FileNode {
+            path: 'Assignment0/src',
+            size: -1,
+            type: 'dir',
+            children: [Object],
+            parent: 'Assignment0'
+        },
+        FileNode {
+            path: 'Assignment0/useOutput.txt',
+            size: '2980',
+            type: 'others',
+            children: [],
+            parent: 'Assignment0'
+        }
+    ],
+    parent: null
+}

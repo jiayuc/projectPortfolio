@@ -1,0 +1,28 @@
+<% if (fileTree.length) { %>
+<ul>
+<% } %>
+			<% if (fileTree.type == 'dir'){ %>
+				<h3>Path: <%= fileTree.path %></h3>
+				<li>Type: <%=  fileTree.type%></li>
+				<% for(var i=0; i<fileTree.children.length; i++) {%>
+					<div class="file">
+						<li>Sub files: </li>
+
+						   <%- include('fileTree', {fileTree: fileTree.children[i]}); %>
+					</div>
+				<% } %>
+
+			<% } else { %>  
+				<h5>File: <%= fileTree.path %></h5>
+				<li>Type: <%=  fileTree.type%></li>
+				<% for(var i=0; i<fileTree.children.length; i++) {%>
+					<div class="file">
+						<li>Sub files: </li>
+
+						   <%- include('fileTree', {fileTree: fileTree.children[i]}); %>
+					</div>
+			<% } %>
+
+</ul>
+<% } %>
+
