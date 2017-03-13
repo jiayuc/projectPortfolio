@@ -1,0 +1,36 @@
+Original version created by Serge Demeyer, Matthias Rieger and Bart Van Rompaey
+and Bart Du Bois. The original files are available from
+http://www.lore.ua.ac.be/Research/Artefacts/refactoringLabSession/
+
+Modified by Nicholas Chen and Maurice Rabb for use in CS 427 - Software
+Engineering I at UIUC.
+
+-------------------------------------------------------------------------------
+
+This directory contains the ingredients for a computer lab session on
+Refactoring. The session concerns the refactoring of a system which simulates a
+Local Area Network.
+
+The directory contains
+
+/doc ====
+
+* README The file your are reading right now.
+
+* RefactoringAssignment.pdf - The document that describes what steps you need to
+perform for this assignment.
+
+* LANSimulationDocument.pdf - A few UML diagrams documenting the LAN simulation.
+
+* toDoList - A list of the use cases that have been implemented so far, and the
+ones that are still left to be done
+
+/javadoc ========
+
+This folder contains the generated javadoc for the system. Do *NOT* check this
+into the repository. This is for your reference.
+
+/src ====
+
+This folder contains the Java source files that are used for this assignment.
+All your work should be done in this repository.

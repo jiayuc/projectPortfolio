@@ -35,15 +35,16 @@ FileNode.prototype.interpretType = function(type, name) {
 
     let image = ["png", "jpeg", "jpg", "img"];
     let code = ["java", "cpp", "ruby", "class", "js", "html", "css"];
-
+    let data = ["iml", "md", "xml", "docx", "doc"];
     let pieces = name.split(".");
     let postfix = pieces[pieces.length - 1];
 
     if (image.indexOf(postfix) !== -1) {
         return "image";
-    }
-    if (code.indexOf(postfix) !== -1) {
+    } else if (code.indexOf(postfix) !== -1) {
         return "code";
+    } else if (data.indexOf(postfix) !== -1) {
+        return "data";
     }
     return "others";
 };

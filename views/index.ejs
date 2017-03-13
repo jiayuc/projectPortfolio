@@ -14,7 +14,6 @@
 <body>
 
 	<header>
-	<p><%= rootPath %></p>
 		<div class="logo">
 			<a href="index"><img src="img/logo.jpg" title="Jiayu Chen" alt="Jiayu Chen"/></a>
 		</div><!-- end logo -->
@@ -55,7 +54,7 @@
 				<a href="<%= Object.keys(project_nodes)[i] %>">
 					<img src="img/<%= cover_pics[i] %>" class="media" alt=""/>
 					<div class="caption">
-						<div class="work_title">
+						<div class="work_title filename">
 							<h1><%= Object.keys(project_nodes)[i] %></h1>
 							<p><%= project_nodes[ Object.keys(project_nodes)[i] ].date %></p>
 						</div>

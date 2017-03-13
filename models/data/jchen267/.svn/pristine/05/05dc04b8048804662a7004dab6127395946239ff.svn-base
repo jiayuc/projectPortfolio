@@ -1,0 +1,23 @@
+FINISHED version 1.4: BROADCAST PACKET
+
+Subsequent versions:
+* version 1.0: BASIC DOCUMENT PRINTING
+ Workstations request the token ring network to deliver a document to a node representing a printer.
+* version 1.1: LOG PACKET SENDING
+ Each time a node sends a packet to the next one, it should be logged on a log file
+* version 1.2: POSTSCRIPT PRINTING
+ A packet may start with "!PS" in which case printers should recognize it as postscript and invoke the postscript printing job
+* version 1.3: PRINT ACCOUNTING
+ Printers should register the author and the title of the document that is being printed. For an ASCII document the author is in character position 10 to 30 and the title is "ASCII DOCUMENT". For postscript documents, the author and title of the document should be found by scanning characters in the document, looking for keyword "author:" up until "."
+* VERSION 1.4: BROADCAST PACKET
+ Introduce a new type of packet "BROADCAST" which should be accepted by all nodes in the network
+ 
+* version 2.0: READ FROM FILE
+  Read the configuration of a network and the jobs to be printed from a file (in XML format)
+* version 2.1: GATEWAY NODE
+  Introduce a new "gateway" node, which can recognize all addresses in its current subnetwork by looking at the first 3 characters of the adressee. If a packet passes trough the gateway and the addressee is not on the current subnetwork, the message is deferred trough the gateway. 
+* version 2.1: COMPILE LIST OF NODES
+  Using BROADCAST PACKET, the gateway periodically sends out a request to all nodes to reply with their name. As such the gateway can verify whether the nodes indeed have the right prefix.
+
+* version 3.0: GUI
+  The system should receive a GUI which is able to show an animation as the system is running.

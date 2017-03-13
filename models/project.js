@@ -5,10 +5,42 @@ exports.get = function(id, cb) {
 	var projects = {};
 	var rootPath = {};
     parseListFile('svn_list.xml', projects, rootPath);
- //    console.log(rootPath);
-	console.log('project tree: ', projects);
+
+	// console.log('project tree: ', projects.Assignment0.fileTree.root)
+    // getCommits(projects, function(err, revisions) {
+    // 	console.log("revisions from getAll in model: ");
+    // 		// , revisions);
+    //     projects[id].revisions = revisions;
+	   //  // var filePath = 'Assignment1.2/GUI-testplan.docx';
+	   //  // var revision_arr = getRevisions(filePath, revisions);
+	   //  // console.log('revision arr: ', revision_arr);
+    // });
+
     cb(null,  projects[id]);
 };
+
+
+// Get a particular project info
+exports.getCommitsForFile = function(filePath, cb) {
+	var revisions = {};
+	var projects = {};
+    parseLogFile('svn_log.xml', revisions, projects);
+    // get related commits
+    filePath = 'Assignment1/ChessGame/.idea/description.html';
+	var revision_arr = getRevisions(filePath, revisions);
+	console.log('revision arr: ', revision_arr);
+ //    console.log(rootPath);
+	// console.log('revision tree: ', revisions);
+    cb(null,  revision_arr);
+};
+
+function getCommits(projects, cb) {
+	var revisions = {};
+    parseLogFile('svn_log.xml', revisions, projects);
+ //    console.log(rootPath);
+	// console.log('revision tree: ', revisions);
+    cb(null,  revisions);
+}
 
 
 // get all info about projects
@@ -17,7 +49,6 @@ exports.getAll = function(id, cb) {
 	var rootPath = {};
     parseListFile('svn_list.xml', projects, rootPath);
  //    console.log(rootPath);
-	// console.log('project tree: ', projects.Assignment0.fileTree.root)
     cb(null, {
         id: id,
         text: 'Very nice example', 
@@ -30,7 +61,7 @@ exports.getAll = function(id, cb) {
 
 const FileTree = require('./FileTree');
 const ProjectNode = require('./ProjectNode');
-// const RevisionNode = require('./RevisionNode');
+const RevisionNode = require('./RevisionNode');
 
 const fs = require('fs'),
     util = require('util'),
@@ -53,10 +84,10 @@ const readInFile = function(filename) {
         res = result;
         // console.log(util.inspect(result, false, null));
         console.log('Done reading in %s', filename);
-        writeToFile(filename.substring(0, filename.lastIndexOf(".")) + '.json', result);
+        // writeToFile(filename.substring(0, filename.lastIndexOf(".")) + '.json', result);
     });
     // write as json file
-    return res.lists.list;
+    return res;
 };
 
 const writeToFile = function(filename, data) {
@@ -73,7 +104,7 @@ const writeToFile = function(filename, data) {
 //parse files and  create projects array and file tree
 function parseListFile(listFileName, projects, rootPath){
 
-  const listObj = readInFile(listFileName);
+  const listObj = readInFile(listFileName).lists.list;
   //writeToFile(LIST_OUTPUT_FILENAME, listObj);
   rootPath.path = listObj[0]['$']['path'];
   const entryArray = listObj[0].entry;
@@ -270,48 +301,52 @@ function createFileTree(data, projectName, callback) {
 
 
 
-// function parseLogFile(logFileName, revisions, projects){
-//   const logObj = readInFile(logFileName);
-//   const revisionArray = logObj['log']['logentry'];
-//   for(let i=0; i<revisionArray.length; i++){
-//     let cur = revisionArray[i];
-//     let number = cur['$']['revision'];
-//     let author = cur['author'][0];
-//     let date = cur['date'][0];
-//     let message = cur['msg'][0];
-//     let revisionNode = new RevisionNode(number, author, message, date);
-//     let files = cur['paths'][0]['path'];
-//     for(let j=0; j<files.length; j++){
-//       let path = files[j]['_'].split('/').slice(2).join('/'); //remove /xhuang62/ at the beginning
-//       revisionNode.addFile(path);
-//     }
-//     revisions[number] = revisionNode;
-//   }
-//   setSummaryInProjects(revisions, projects);
-// }
+function parseLogFile(logFileName, revisions, projects){
+  const logObj = readInFile(logFileName);
+  const revisionArray = logObj.log.logentry;
+  for(let i=0; i<revisionArray.length; i++){
+    let cur = revisionArray[i];
+    let number = cur.$.revision;
+    let author = cur.author[0];
+    let date = cur.date[0];
+    let message = cur.msg[0];
+    let revisionNode = new RevisionNode(number, author, message, date);
+    let files = cur.paths[0].path;
+    for(let j=0; j<files.length; j++){
+      let path = files[j]['_'].split('/').slice(2).join('/'); //remove /xhuang62/ at the beginning
+      revisionNode.addFile(path);
+    }
+    revisions[number] = revisionNode;
+  }
+  // setSummaryInProjects(revisions, projects);
+}
 
-// function setSummaryInProjects(revisions, projects){
-//   for(name in projects){
-//     let project = projects[name];
-//     let version = project.version;
-//     let summary = revisions[version].message;
-//     project.setSummary(summary);
-//   }
-// }
+function setSummaryInProjects(revisions, projects){
+  for (var name in projects){
+    let project = projects[name];
+    let version = project.version;
+    let summary = revisions[version].message;
+    project.setSummary(summary);
+  }
+}
 
-// //get all revisions contain a specific file
+//get all revisions contain a specific file
 
-// function getRevisions(filePath, revisions){
-//   res = [];
-//   for(num in revisions){
-//     revision = revisions[num];
-//     if(revision.containsFile(filePath)){
+function getRevisions(filePath, revisions){
+  var res = [];
+  for (var num in revisions){
+    var revision = revisions[num];
+    if(revision.containsFile(filePath)){
 
-//       res.push(revision);
-//     }
-//   }
-//   return res;
-// }
+      res.push({
+      	number: num,
+      	author: revision.author,
+      	date: revision.date
+      });
+    }
+  }
+  return res;
+}
 
 // module.exports={
 //   "parserListFile": parseListFile, 

@@ -7,7 +7,7 @@ const router = express.Router(),
 
 var project = require('../models/project');
 // mount the router 
-router.use('/projects', require('./projects.js'));
+// router.use('/projects', require('./projects.js'));
 // Home page route
 router.get('/index', function (req, res) {
    console.log("Got a GET request for the jiayu's homepage");

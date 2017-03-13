@@ -7,13 +7,22 @@ const project = require('../models/project');
 // const app = express();
 
 
-// About page route
-router.get('/about', function (req, res) {
-  res.send('About this PAGE in router');
+// detailed file page
+router.get("/path", function (req, res) {
+	console.log('Entering filename?', req.query.filename); 
+	project.getCommitsForFile(req.query.filename, function (err, revisions) {
+  		console.log(revisions); // passed from model
+    // res.render('projects/project', {project: project});
+	  	res.render('detail', {
+			filepath: req.query.filename,
+			revisions: revisions
+		});
+  	});
 });
 
 
 router.get('/:name', function (req, res) {
+
   project.get(req.params.name, function (err, project) {
   	console.log('inspect children node: ', project.fileTree.root.children); // passed from model
     // res.render('projects/project', {project: project});
