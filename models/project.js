@@ -1,333 +1,178 @@
 /*jslint node: true */
 "use strict";
-// Get a particular project info
-exports.get = function(id, cb) {
-	var projects = {};
-	var rootPath = {};
-    parseListFile('svn_list.xml', projects, rootPath);
-
-	// console.log('project tree: ', projects.Assignment0.fileTree.root)
-    // getCommits(projects, function(err, revisions) {
-    // 	console.log("revisions from getAll in model: ");
-    // 		// , revisions);
-    //     projects[id].revisions = revisions;
-	   //  // var filePath = 'Assignment1.2/GUI-testplan.docx';
-	   //  // var revision_arr = getRevisions(filePath, revisions);
-	   //  // console.log('revision arr: ', revision_arr);
-    // });
-
-    cb(null,  projects[id]);
-};
-
-
-// function tmp(filePath, cb) {
-// 	var revisions = {};
-// 	var projects = {};
-//     parseLogFile('svn_log.xml', revisions, projects);
-//     // get related commits
-//     filePath = 'Assignment1/ChessGame/.idea/description.html';
-// 	var revision_arr = getRevisions(filePath, revisions);
-// 	// console.log('revision arr: ', revision_arr);
-//  //    console.log(rootPath);
-// 	// console.log('revision tree: ', revisions);
-//     cb(null,  revision_arr);
-// }
-
-// Get a particular project info
-exports.getCommitsForFile = function(filePath, cb) {
-	var revisions = {};
-	var projects = {};
-    parseLogFile('svn_log.xml', revisions, projects);
-    // get related commits
-    // filePath = 'Assignment1/ChessGame/.idea/description.html';
-	var revision_arr = getRevisions(filePath, revisions);
-	// console.log('revision arr: ', revision_arr);
- //    console.log(rootPath);
-	// console.log('revision tree: ', revisions);
-    cb(null,  revision_arr);
-};
-
-function getCommits(projects, cb) {
-	var revisions = {};
-    parseLogFile('svn_log.xml', revisions, projects);
- //    console.log(rootPath);
-	// console.log('revision tree: ', revisions);
-    cb(null,  revisions);
-}
-
-
-// get all info about projects
-exports.getAll = function(id, cb) {
-	var projects = {};
-	var rootPath = {};
-    parseListFile('svn_list.xml', projects, rootPath);
- //    console.log(rootPath);
-    cb(null, {
-        id: id,
-        text: 'Very nice example', 
-        projects: projects, 
-        rootPath: rootPath
-    });
-};
-
-
 
 const FileTree = require('./FileTree');
 const ProjectNode = require('./ProjectNode');
 const RevisionNode = require('./RevisionNode');
 
 const fs = require('fs'),
-    util = require('util'),
     xml2js = require('xml2js');
-// sql = require("mssql");
 
-// //global variable
-// let rootPath = {};
-// let projects = {};
-// let revisions = {};
-//functions
+/**
+ * Fer the svn list for a given file
+ * @param  {string}   filename - name of the file to get
+ * @param  {Function} cb - callback passed in
+ */
+exports.get = function(filename, cb) {
+    var projects = {};
+    var root_path = {};
+    parseSvnList('svn_list.xml', projects, root_path);
+
+    cb(null, projects[filename]);
+};
+
+
+/**
+ * Fer the svn list for all files
+ * @param  {string}   filename - name of the file to get
+ * @param  {Function} cb - callback passed in
+ */
+exports.getCommitsForFile = function(filePath, cb) {
+    var revisions = {};
+    parseLogFile('svn_log.xml', revisions);
+    // get related commits
+    var revision_arr = getRevisions(filePath, revisions);
+    console.log('revision arr: ', revision_arr);
+
+    cb(null, revision_arr);
+};
+
+
+// get all info about projects
+exports.getAll = function(id, cb) {
+    var projects = {};
+    var root_path = {};
+    parseSvnList('svn_list.xml', projects, root_path);
+
+    cb(null, {
+        projects: projects,
+        root_path: root_path
+    });
+};
+
+
+// read in the file
 const readInFile = function(filename) {
     const parser = new xml2js.Parser();
     var data = fs.readFileSync(__dirname + '/data/' + filename);
-    let res = null;
+    var res = null;
     parser.parseString(data, function(err, result) { //interesting... callback style, but not async...
         if (err) {
-            return console.error(err);
+            console.error(err);
+            return null;
         }
         res = result;
-        // console.log(util.inspect(result, false, null));
         console.log('Done reading in %s', filename);
         // writeToFile(filename.substring(0, filename.lastIndexOf(".")) + '.json', result);
     });
-    // write as json file
     return res;
 };
 
+/**
+ * write svn list xml to json file on disk
+ * @param  {string} filename - name of output file
+ * @param  {object} data - json object to write to disk
+ */
 const writeToFile = function(filename, data) {
     var entries = data.lists.list;
 
-    var jsonData = JSON.stringify(entries, null, 4);
-    var path = __dirname + '/data/' + filename;
-    fs.writeFile(path, jsonData, function(err) {
+    var json_data = JSON.stringify(entries, null, 4);
+    var filepath = __dirname + '/data/' + filename;
+    fs.writeFile(filepath, json_data, function(err) {
         if (err) throw err;
         console.log('complete writing to %s', filename);
     });
 };
 
-//parse files and  create projects array and file tree
-function parseListFile(listFileName, projects, rootPath){
+/**
+ * parse svn list and obtain data structure to store
+ * @param  {[type]} filename [description]
+ * @param  {[type]} projects     [description]
+ * @param  {[type]} root_path     [description]
+ * @return {[type]}              [description]
+ */
+function parseSvnList(filename, projects, root_path) {
 
-  const listObj = readInFile(listFileName).lists.list;
-  //writeToFile(LIST_OUTPUT_FILENAME, listObj);
-  rootPath.path = listObj[0]['$']['path'];
-  const entryArray = listObj[0].entry;
+    const listObj = readInFile(filename).lists.list;
+    root_path.path = listObj[0].$.path;
+    const entries_arr = listObj[0].entry;
+
+    for (let i = 0; i < entries_arr.length; i++) {
+        var cur = entries_arr[i];
+        var name = cur.name[0]; //including path info
+        var nameArray = name.split('/');
+        var projectName = nameArray[0];
+
+        //for creating tree
+        const type = cur.$.kind;
+        var size = -1;
+        if (type != 'dir') {
+            size = cur.size[0];
+        }
+
+        //create new project
+        if (!projects[projectName]) {
+            var version = cur.commit[0].$.revision;
+            var fileTree = new FileTree(projectName);
+            projects[projectName] = new ProjectNode(name, date, version, null, fileTree); //cannot set commit message currently 
+        } else {
+            projects[projectName].fileTree.add(size, type, name);
+        }
+    }
+}
+
+/**
+ * parse log file to get information
+ * @param  {string} filename - filename of the svn log
+ * @param  {object} revisions - will update to the revision object 
+ */
+function parseLogFile(filename, revisions) {
+    const logObj = readInFile(filename);
+    const revisionArray = logObj.log.logentry;
+    for (let i = 0; i < revisionArray.length; i++) {
+        let revision = revisionArray[i];
+        let number = revision.$.revision;
+        let author = revision.author[0];
+        let message = revision.msg[0];
+        let date = revision.date[0];
+        let revisionNode = new RevisionNode(number, author, message, date);
+
+        let files = revision.paths[0].path;
+        for (let j = 0; j < files.length; j++) {
+            // remove netid
+            let path = files[j]['_'].split('/').slice(2).join('/');
+            revisionNode.addFile(path);
+        }
+        revisions[number] = revisionNode;
+    }
+}
 
 
-  for(let i=0; i < entryArray.length; i++){
-    let cur = entryArray[i];
-    let name = cur.name[0]; //including path info
-    let nameArray = name.split('/');
-    let projectName = nameArray[0];
+/**
+ * get revisions that contain given filename
+ * @param  {string} filename - name of the file to find
+ * @param  {object} revisions - dictionary that contains all revisions
+ * @return {Array}             array of revision nodes
+ */
+function getRevisions(filename, revisions) {
+    var res = [];
+    for (var num in revisions) {
+        var revision = revisions[num];
+        if (revision.containsFile(filename)) {
+            res.push(res.push(revision));
+        }
+    }
+    return res;
+}
 
-    //for creating tree
-    const type = cur['$'].kind;
-    var size = -1;
-    if (type != 'dir'){
-      size = cur.size[0];
-    } 
+// run svn shell script
+var exec = require('child_process').exec;
+var cmd = ''; //'source svn.sh';
 
-    //create new project
-    if (!projects[projectName]){
-      var version = cur.commit[0]['$']['revision'];
-      var author = cur['commit'][0]['author'][0];
-      var date = cur['commit'][0]['date'][0];
-      var fileTree = new FileTree(projectName);
-      projects[projectName] = new ProjectNode(name,date, version, null, fileTree); //cannot set commit message currently 
+exec(cmd, function(error, stdout, stderr) {
+    if (error) {
+        console.log('Err: ', error);
     } else {
-      projects[projectName].fileTree.add(size, type, name);
-    } 
-  }
-}
-
-// function revisionInsertRequestFunc(number, author, message, date){
-//   const revisionInsertRequest = new sql.Request();
-//   revisionInsertRequest.input('author', sql.VarChar(50), author);
-//   revisionInsertRequest.input('message', sql.VarChar(50), message);
-//   revisionInsertRequest.input('date', sql.VarChar(50), date);
-//   revisionInsertRequest.input('number', sql.Int, number);
-//   revisionInsertRequest.execute('dbo.RevisionInsert', function(err, recordsets, returnValue) {
-//     if (err){
-//       console.log(err);
-//       return;
-//     }
-//   });
-// }
-
-// function revisionFileInsertRequestFunc(number, filePath){
-//   const revisionFileInsertRequest = new sql.Request();
-//   revisionFileInsertRequest.input('number', sql.Int, number);
-//   revisionFileInsertRequest.input('filePath', sql.VarChar(50), filePath);
-//   revisionFileInsertRequest.execute('dbo.RevisionFileInsert', function(err, recordsets, returnValue){
-//     if (err){
-//       console.log(err);
-//       return;
-//     }
-//     console.log("filePath:", filePath);
-//   });
-// }
-
-// function ProjectSummaryUpdateFunc(summary, number){
-//   const ProjectSummaryUpdateRequest = new sql.Request();
-//   ProjectSummaryUpdateRequest.input('summary', sql.VarChar(50), summary);
-//   ProjectSummaryUpdateRequest.input('number', sql.VarChar(50), number);
-//   ProjectSummaryUpdateRequest.execute('dbo.ProjectSummaryUpdate', function(err, recordsets, returnValue){
-//     if (err){
-//       console.log(err);
-//       return;
-//     }
-//   });
-// }
-
-// function populateTableByListFile(listFileName, rootPath){
-//   const listObj = readInFile(listFileName);
-//   //writeToFile(LIST_OUTPUT_FILENAME, listObj);
-//   rootPath["path"] = listObj['lists']['list'][0]['$']['path'];
-//   entryArray = listObj['lists']['list'][0]['entry'];
-//   projects = [];
-//   sql.connect(config, function(err){
-//     for(let i=0; i<entryArray.length; i++){
-//       let cur = entryArray[i];
-//       let name = cur['name'][0]; //including path info
-//       let nameArray = name.split('/');
-//       let projectName = nameArray[0];
-//       //for creating tree
-//       type = cur['$']['kind'];
-//       size = -1;
-//       if(type != 'dir'){
-//         size = cur['size'][0];
-//       } 
-//       if(projects[projectName] == null){
-//         projects[projectName] = "exist";
-//         version = cur['commit'][0]['$']['revision'];
-//         author = cur['commit'][0]['author'][0];
-//         date = cur['commit'][0]['date'][0];
-//         projectInsertRequestFunc(name, date, version, author);
-//       }
-//       fileInsertRequestFunc(name, size, type, projectName);
-//     }
-//     console.log("finish all!");
-//   });
-//   sql.on('error', function(err) {
-//     throw err;
-//   });
-// }
-
-function createFileTree(data, projectName, callback) {
-    var fileTree = new FileTree(projectName);
-    for (let i = 0; i < data.length; i++) {
-        let cur = data[i];
-        console.log('curr\n', cur);
-        break;
-        // fileTree.add(cur.size, cur.type, cur.path);
+        console.log('Stdout: ', stdout);
     }
-    callback(fileTree);
-};
-
-
-
-  // if(recordset){
-  //   var fileList = recordset[0];
-  //   var fileTree = ParserFuncs.createFileTree(fileList, projectName, function(fileTree){
-  //     console.log("fileTree", fileTree);
-  //     res.json({message: "OK", data: fileTree});
-  //   }); 
-
-
-
-
-
-// function populateTableByLogFile(logFileName){
-//   const logObj = readInFile(logFileName);
-//   const revisionArray = logObj['log']['logentry'];
-//   sql.connect(config, function(err){
-//     for(let i=0; i<revisionArray.length; i++){
-//       let cur = revisionArray[i];
-//       let number = cur['$']['revision'];
-//       let author = cur['author'][0];
-//       let date = cur['date'][0];
-//       let message = cur['msg'][0];
-//       revisionInsertRequestFunc(number, author, message, date);
-//       let files = cur['paths'][0]['path'];
-//       for(let j=0; j<files.length; j++){
-//         let path = files[j]['_'].split('/').slice(2).join('/'); //remove /xhuang62/ at the beginning
-//         revisionFileInsertRequestFunc(number, path);
-//       }
-//       let projectName = files[0]['_'].split('/').slice(2)[0];
-//       console.log("projectName:", projectName);
-//       ProjectSummaryUpdateFunc(message, number);
-//     }
-//   });
-//   sql.on('error', function(err) {
-//     throw err;
-//   });
-// }
-
-
-
-function parseLogFile(logFileName, revisions, projects){
-  const logObj = readInFile(logFileName);
-  const revisionArray = logObj.log.logentry;
-  for(let i=0; i<revisionArray.length; i++){
-    let cur = revisionArray[i];
-    let number = cur.$.revision;
-    let author = cur.author[0];
-    let date = cur.date[0];
-    let message = cur.msg[0];
-    let revisionNode = new RevisionNode(number, author, message, date);
-    let files = cur.paths[0].path;
-    for(let j=0; j<files.length; j++){
-      let path = files[j]['_'].split('/').slice(2).join('/'); //remove /xhuang62/ at the beginning
-      revisionNode.addFile(path);
-    }
-    revisions[number] = revisionNode;
-  }
-  // setSummaryInProjects(revisions, projects);
-}
-
-function setSummaryInProjects(revisions, projects){
-  for (var name in projects){
-    let project = projects[name];
-    let version = project.version;
-    let summary = revisions[version].message;
-    project.setSummary(summary);
-  }
-}
-
-//get all revisions contain a specific file
-
-function getRevisions(filePath, revisions){
-  var res = [];
-  for (var num in revisions){
-    var revision = revisions[num];
-  	console.log('====num: ', num);
-    if(revision.containsFile(filePath)){
-      console.log('==has num: ', num);
-      res.push(res.push(revision));
-    } 
-  }
-  return res;
-}
-
-
-// module.exports={
-//   "parserListFile": parseListFile, 
-//   "parserLogFile": parseLogFile,
-//   "getRevisions": getRevisions,
-//   "populateTableByListFile": populateTableByListFile,
-//   "populateTableByLogFile": populateTableByLogFile,
-//   "createFileTree": createFileTree
-// };
-
-// //call parse functions
-// //parseListFile(LIST_FILENAME);
-// //parseLogFile(LOG_FILENAME);
+});

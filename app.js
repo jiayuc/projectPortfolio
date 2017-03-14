@@ -1,5 +1,6 @@
 /*jslint node: true */
 "use strict";
+
 var express = require('express'),
  	app = express(),
  	// middleware for logging
@@ -8,14 +9,12 @@ var express = require('express'),
 
 // config logging
 app.use(morgan('dev'));
+// set view engine
 app.set('views', __dirname + '/views');
-// app.set('view engine', 'html');
 app.set('view engine', 'ejs');
 
 // enable middleware to serve static file
 app.use(express.static(path.join(__dirname, 'public')));
-// app.use(bodyParser.json())
-// app.use(bodyParser.urlencoded({extended: true}))
 app.use(require('./controllers'));
 
 /**

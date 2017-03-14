@@ -1,50 +1,52 @@
 /*jslint node: true */
 "use strict";
 
-const FileNode = module.exports = function FileNode(size, type, path, parent) {
+/**
+ * Constructor
+ * @param {number} size - size of file
+ * @param {string} type - type of file
+ * @param {string} path - pathe to file
+ * @param {string} path - pathe to file
+ */
+const FileNode = function FileNode(size, type, path) {
     this.path = path; //id
     this.size = size;
     if (path) {
         let pathArray = path.split("/");
-        this.type = this.interpretType(type, pathArray[pathArray.length - 1]);
+        this.type = this.getType(type, pathArray[pathArray.length - 1]);
     } else {
         this.type = null;
     }
     this.children = [];
-    this.parent = parent;
-
 };
 
-FileNode.prototype.isFile = function() {
-    return this.type !== 'dir';
-};
 
-FileNode.prototype.addChild = function(fileNode) {
-    this.children.append(fileNode);
-};
-
-FileNode.prototype.getName = function() {
-    var pathArray = this.path.split('/');
-    return pathArray[pathArray.length - 1];
-};
-
-FileNode.prototype.interpretType = function(type, name) {
+/**
+ * Get the file type
+ * @param  {string} type - it has value 'dir' if it is a directory
+ * @param  {name} string - name of the file 
+ */
+FileNode.prototype.getType = function(type, name) {
     if (type === "dir") {
         return type;
     }
 
-    let image = ["png", "jpeg", "jpg", "img"];
-    let code = ["java", "cpp", "ruby", "class", "js", "html", "css"];
-    let data = ["iml", "md", "xml", "docx", "doc"];
-    let pieces = name.split(".");
-    let postfix = pieces[pieces.length - 1];
+    var code = ["java", "cpp", "ruby", "class", "js", "html", "css"];
+    var data = ["iml", "md", "xml", "docx", "doc"];
+    var image = ["png", "jpeg", "jpg", "img"];
+    var suffix = name.split(".").slice(-1).pop();
 
-    if (image.indexOf(postfix) !== -1) {
+    if (image.indexOf(suffix) !== -1) {
         return "image";
-    } else if (code.indexOf(postfix) !== -1) {
+
+    } else if (code.indexOf(suffix) !== -1) {
         return "code";
-    } else if (data.indexOf(postfix) !== -1) {
+
+    } else if (data.indexOf(suffix) !== -1) {
         return "data";
     }
-    return "others";
+
+    return "other type";
 };
+
+module.exports = FileNode;

@@ -6,8 +6,6 @@
 				<li>Type: <%=  fileTree.type%></li>
 				<% for(var i=0; i<fileTree.children.length; i++) {%>
 					<div class="foldername">
-						<li>Sub files: </li>
-
 						   <%- include('fileTree', {fileTree: fileTree.children[i]}); %>
 					</div>
 				<% } %>
@@ -16,6 +14,7 @@
 				<div class="filename" filename=<%= fileTree.path %> >
 					<h5>File: <%= fileTree.path %></h5>
 					<li>Type: <%=  fileTree.type%></li>
+					<li>Size: <%= fileTree.size%></li>
 				</div>
 
 </ul>

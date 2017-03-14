@@ -1,20 +1,22 @@
 /*jslint node: true */
 "use strict";
 
-const ProjectNode = module.exports = function(name, date, version, summary, tree) {
-    this.name = name; //id
+/**
+ * Constructor
+ * @param {number} name - name of file
+ * @param {number} size - size of file
+ * @param {string} date - date of file
+ * @param {string} version - version of file
+ * @param {string} summary - summary of file
+ * @param {string} tree - the file tree under this project
+ */
+const ProjectNode = function(name, date, version, summary, tree) {
+    this.name = name;
     this.date = new Date(date);
     this.version = version;
-    if (summary) {
-        this.summary = '(no commit message)';
-    } else {
-        this.summary = summary;
-    }
+    this.summary = summary ? 'empty commit msg' : summary;
 
     this.fileTree = tree;
-
 };
 
-ProjectNode.prototype.setSummary = function(summary) {
-    this.summary = summary;
-};
+module.exports = ProjectNode;

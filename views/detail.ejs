@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Magnetic - Stunning Responsive HTML5/CSS3 Photography Template</title>
+	<title>Jiayu's Portfolio</title>
 	<meta charset="utf-8">
 	<meta name="author" content="pixelhint.com">
 	<meta name="description" content="Magnetic is a stunning responsive HTML5/CSS3 photography/portfolio website  template"/>
@@ -15,7 +15,7 @@
 
 	<header>
 		<div class="logo">
-			<a href="index"><img src="img/logo.png" title="Magnetic" alt="Magnetic"/></a>
+			<a href="index"><img src="img/logo.jpg" title="Jiayu Chen" alt="Jiayu Chen"/></a>
 		</div><!-- end logo -->
 
 		<div id="menu_icon"></div>
@@ -65,22 +65,22 @@
 
 		<section class="wrapper">
 			<div class="content">
-					<ul class="summary">
+				<ul class="summary">
 
-					</ul>			
 
-					<h2>Loop</h2>
 					<% for(var i=0; i<revisions.length; i++) {%>
-						<li>Author: <%= revisions[i].author%></li>
-						<li>Number: <%=  revisions[i].number%></li>
-						<li>Date: <%=  revisions[i].date%></li>
-						<h3>Message: <%= revisions[i].message %></h3>
+						<% if (revisions[i].number) {%>
+							<h5>Message: <%= revisions[i].message %></h5>
+							<li>Author: <%= revisions[i].author%></li>
+							<li>Number: <%=  revisions[i].number%></li>
+							<li>Date: <%=  revisions[i].date%></li>
+						<% } %>
 					<% } %>
-
 					<div>
 						<iframe src="https://subversion.ews.illinois.edu/svn/sp17-cs242/jchen267/<%=filepath%>" style="width: 90%; height: 300px"></iframe>
 					</div>
 
+				</ul>			
 			</div><!-- end content -->
 		</section>
 	</section><!-- end main -->
