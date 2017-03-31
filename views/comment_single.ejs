@@ -1,0 +1,30 @@
+<li class="cmmnt">
+  <div class="avatar">
+      <a href="javascript:void(0);"><img src="images/dark-cubes.png" width="55" height="55" alt="DarkCubes photo avatar">
+      </a>
+  </div>
+  <div class="cmmnt-content">
+      <header>
+          <a href="javascript:void(0);" class="userlink"><%= comment.author%></a> <span class="pubdate"><%= comment.pubdate%></span>
+          <!-- helper buttons -->
+          <button id="reply" title="reply"><img class='icon' src="img/reply.svg" /></button>
+          <button id="upvoke" title="upvoke"><img class='icon' src="img/upvoke.svg" /></button>
+          <button id="display" title="votes"><%= comment.votes%></button>
+          <button id="downvoke" title="downvoke"><img class='icon' src="img/downvoke.svg" /></button>
+      </header>
+      <p><%= comment.content%></p>
+      <% if (comment.mediaSrc != null) { %>
+          <embed style=" width: 50%; height: auto;" src=<%= comment.mediaSrc%> >
+      <% } %>      
+  </div>
+
+
+  <% if (comment.children.length > 0) { %>
+    <ul class="replies">
+          <% for(var i=0; i<comment.children.length; i++) {%>
+            <%- include('comment_single', {comment: comment.children[i]}); %>   
+          <% } %>   
+    </ul>
+  <% } %>
+
+</li>

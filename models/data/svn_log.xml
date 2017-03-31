@@ -1,6 +1,236 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <log>
 <logentry
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment3.0</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment3.0/projectPortfolio</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/app.js</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment3.0/projectPortfolio/controllers</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/controllers/index.js</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/controllers/router.js</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment3.0/projectPortfolio/models</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/models/FileNode.js</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/models/FileTree.js</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/models/ProjectNode.js</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/models/RevisionNode.js</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/models/data</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/models/data/svn_list.json</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/models/data/svn_list.xml</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/models/data/svn_list_test.xml</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/models/data/svn_log.json</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/models/data/svn_log.xml</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/models/data/svn_log_test.xml</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/models/project.js</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/models/svn.sh</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/package.json</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment3.0/projectPortfolio/public</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment3.0/projectPortfolio/public/css</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/css/main.css</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/css/reset.css</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment3.0/projectPortfolio/public/fonts</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/fonts/raleway-bold.eot</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/fonts/raleway-bold.svg</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/fonts/raleway-bold.ttf</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/fonts/raleway-bold.woff</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/fonts/raleway-regular.eot</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/fonts/raleway-regular.svg</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/fonts/raleway-regular.ttf</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/fonts/raleway-regular.woff</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/fonts/raleway-semibold.eot</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/fonts/raleway-semibold.svg</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/fonts/raleway-semibold.ttf</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/fonts/raleway-semibold.woff</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/img</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/img/943997_811384278967195_9121880394064609925_n.jpg</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/img/chess.jpg</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/img/chess.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/img/cjy.jpg</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/img/hero_image.jpg</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/img/logo.jpg</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/img/men_icons.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/img/model.jpg</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/img/ori-logo.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/public/img/p_navigation.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/img/point.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/img/sm.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/img/sm2.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/img/sm_hover.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/img/swim.jpg</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/img/view.jpg</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/img/webCrawler.png</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/img/webNet.png</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment3.0/projectPortfolio/public/js</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/js/jquery.js</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/js/main.js</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment3.0/projectPortfolio/public/js/map.js</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/test</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/test/test.js</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/views</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/views/app.js</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/views/contact.html</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/views/detail.ejs</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/views/fileTree.ejs</path>
+<path
+   kind="dir"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/views/imgs</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/views/imgs/sample.jpg</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/views/imgs/sample.png</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/views/index.ejs</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/views/inner.ejs</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment3.0/projectPortfolio/views/license &amp; credits.txt</path>
+</paths>
+<msg>portfolio pt1/3</msg>
+</logentry>
+<logentry
    revision="6430">
 <author>jchen267</author>
 <date>2017-03-06T18:47:32.697464Z</date>
@@ -9,8 +239,8 @@
    kind="dir"
    action="A">/jchen267/Assignment2.2</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment2.2/.idea</path>
+   kind="dir"
+   action="A">/jchen267/Assignment2.2/.idea</path>
 <path
    kind="dir"
    action="A">/jchen267/Assignment2.2/.idea/inspectionProfiles</path>
@@ -18,11 +248,11 @@
    kind="file"
    action="A">/jchen267/Assignment2.2/.idea/misc.xml</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.2/.idea/modules.xml</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.2/.idea/modules.xml</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.2/.idea/untitled.iml</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.2/.idea/untitled.iml</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment2.2/.idea/vcs.xml</path>
@@ -42,8 +272,8 @@
    action="A"
    kind="dir">/jchen267/Assignment2.2/src/api</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.2/src/api/api.rb</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.2/src/api/api.rb</path>
 <path
    action="A"
    kind="dir">/jchen267/Assignment2.2/src/graph</path>
@@ -54,11 +284,11 @@
    action="A"
    kind="file">/jchen267/Assignment2.2/src/graph/graph.rb</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment2.2/src/graph/node.rb</path>
+   kind="file"
+   action="A">/jchen267/Assignment2.2/src/graph/node.rb</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment2.2/src/infoNetwork</path>
+   kind="dir"
+   action="A">/jchen267/Assignment2.2/src/infoNetwork</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment2.2/src/infoNetwork/info_network.rb</path>
@@ -78,8 +308,8 @@
    kind="file"
    action="A">/jchen267/Assignment2.2/src/scrapper/actor.rb</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment2.2/src/scrapper/config</path>
+   kind="dir"
+   action="A">/jchen267/Assignment2.2/src/scrapper/config</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment2.2/src/scrapper/config/cacert.pem</path>
@@ -90,38 +320,38 @@
    kind="file"
    action="A">/jchen267/Assignment2.2/src/scrapper/film.rb</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment2.2/src/scrapper/log</path>
+   action="A"
+   kind="dir">/jchen267/Assignment2.2/src/scrapper/log</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.2/src/scrapper/log/logfile.log</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.2/src/scrapper/log/logfile.log</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.2/src/scrapper/log/ret.html</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.2/src/scrapper/log/ret.html</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.2/src/scrapper/log/ret.txt</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.2/src/scrapper/log/ret.txt</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.2/src/scrapper/log/tmp.html</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.2/src/scrapper/log/tmp.html</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment2.2/src/scrapper/web_scrapper.rb</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment2.2/tests</path>
+   action="A"
+   kind="dir">/jchen267/Assignment2.2/tests</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.2/tests/actorTest.rb</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.2/tests/actorTest.rb</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.2/tests/filmTest.rb</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.2/tests/filmTest.rb</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.2/tests/graphTest.rb</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.2/tests/graphTest.rb</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.2/tests/scrapperTest.rb</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.2/tests/scrapperTest.rb</path>
 <path
    action="A"
    kind="dir">/jchen267/Assignment2.2/visualization</path>
@@ -140,8 +370,8 @@
 <date>2017-02-28T19:14:17.249131Z</date>
 <paths>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment2.1/.idea/inspectionProfiles</path>
+   kind="dir"
+   action="A">/jchen267/Assignment2.1/.idea/inspectionProfiles</path>
 <path
    action="M"
    kind="file">/jchen267/Assignment2.1/.idea/untitled.iml</path>
@@ -161,8 +391,8 @@
    action="D"
    kind="file">/jchen267/Assignment2.1/src/hello.rb</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment2.1/src/scrapper/actor.rb</path>
+   action="M"
+   kind="file">/jchen267/Assignment2.1/src/scrapper/actor.rb</path>
 <path
    action="M"
    kind="file">/jchen267/Assignment2.1/src/scrapper/config/cacert.pem</path>
@@ -179,8 +409,8 @@
    action="A"
    kind="file">/jchen267/Assignment2.1/src/scrapper/log/ret.txt</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment2.1/src/scrapper/log/tmp.html</path>
+   kind="file"
+   action="A">/jchen267/Assignment2.1/src/scrapper/log/tmp.html</path>
 <path
    kind="file"
    action="D">/jchen267/Assignment2.1/src/scrapper/webScrapper.rb</path>
@@ -214,26 +444,26 @@
    action="A"
    kind="dir">/jchen267/Assignment2.1</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment2.1/.idea</path>
+   action="A"
+   kind="dir">/jchen267/Assignment2.1/.idea</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.1/.idea/misc.xml</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.1/.idea/misc.xml</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.1/.idea/modules.xml</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.1/.idea/modules.xml</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.1/.idea/untitled.iml</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.1/.idea/untitled.iml</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.1/.idea/vcs.xml</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.1/.idea/vcs.xml</path>
 <path
    action="A"
    kind="dir">/jchen267/Assignment2.1/src</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment2.1/src/graph</path>
+   action="A"
+   kind="dir">/jchen267/Assignment2.1/src/graph</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment2.1/src/graph/edge.rb</path>
@@ -247,23 +477,23 @@
    kind="file"
    action="A">/jchen267/Assignment2.1/src/hello.rb</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment2.1/src/scrapper</path>
+   kind="dir"
+   action="A">/jchen267/Assignment2.1/src/scrapper</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment2.1/src/scrapper/actor.rb</path>
+   kind="file"
+   action="A">/jchen267/Assignment2.1/src/scrapper/actor.rb</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment2.1/src/scrapper/config</path>
+   kind="dir"
+   action="A">/jchen267/Assignment2.1/src/scrapper/config</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment2.1/src/scrapper/config/cacert.pem</path>
+   kind="file"
+   action="A">/jchen267/Assignment2.1/src/scrapper/config/cacert.pem</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment2.1/src/scrapper/film.rb</path>
+   kind="file"
+   action="A">/jchen267/Assignment2.1/src/scrapper/film.rb</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment2.1/src/scrapper/log</path>
+   kind="dir"
+   action="A">/jchen267/Assignment2.1/src/scrapper/log</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment2.1/src/scrapper/log/logfile.log</path>
@@ -283,11 +513,11 @@
    action="A"
    kind="file">/jchen267/Assignment2.1/tests/filmTest.rb</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.1/tests/graphTest.rb</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.1/tests/graphTest.rb</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment2.1/tests/scrapperTest.rb</path>
+   action="A"
+   kind="file">/jchen267/Assignment2.1/tests/scrapperTest.rb</path>
 </paths>
 <msg>first commit</msg>
 </logentry>
@@ -306,26 +536,26 @@
    kind="file"
    action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$GameControlPanel.class</path>
 <path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$PlayerPanel.class</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel.class</path>
+<path
    action="M"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$PlayerPanel.class</path>
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Main.class</path>
+<path
+   action="D"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Utility/Pair.class</path>
+<path
+   action="D"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/tmp</path>
 <path
    action="M"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel.class</path>
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BishopTest.class</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Main.class</path>
-<path
-   kind="file"
-   action="D">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Utility/Pair.class</path>
-<path
-   kind="file"
-   action="D">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/tmp</path>
-<path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BishopTest.class</path>
-<path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BoardTest.class</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BoardTest.class</path>
 <path
    action="M"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/CoordinateTest.class</path>
@@ -345,20 +575,20 @@
    action="M"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/RookTest.class</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/SpyTest.class</path>
-<path
    action="M"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/UserTest.class</path>
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/SpyTest.class</path>
 <path
-   action="D"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-hopper.png</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/UserTest.class</path>
 <path
-   action="D"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-hopper.png</path>
+   kind="file"
+   action="D">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-hopper.png</path>
 <path
-   action="D"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/alfilBlack.png</path>
+   kind="file"
+   action="D">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-hopper.png</path>
+<path
+   kind="file"
+   action="D">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/alfilBlack.png</path>
 <path
    kind="file"
    action="D">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/alfilWhite.png</path>
@@ -387,20 +617,20 @@
    action="M"
    kind="file">/jchen267/Assignment1.2/src/com/chess/tests/CoordinateTest.groovy</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/tests/FlyerTest.groovy</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/FlyerTest.groovy</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/tests/KnightTest.groovy</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/KnightTest.groovy</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/tests/PawnTest.groovy</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/PawnTest.groovy</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/tests/QueenTest.groovy</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/QueenTest.groovy</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/tests/RookTest.groovy</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/RookTest.groovy</path>
 <path
    action="M"
    kind="file">/jchen267/Assignment1.2/src/com/chess/tests/SpyTest.groovy</path>
@@ -408,8 +638,8 @@
    action="M"
    kind="file">/jchen267/Assignment1.2/src/com/chess/tests/TileTest.groovy</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/tests/UserTest.groovy</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/UserTest.groovy</path>
 <path
    kind="file"
    action="D">/jchen267/Assignment1.2/src/com/resrc/B-hopper.png</path>
@@ -423,8 +653,8 @@
    kind="file"
    action="D">/jchen267/Assignment1.2/src/com/resrc/alfilWhite.png</path>
 <path
-   action="D"
-   kind="file">/jchen267/Assignment1.2/src/com/resrc/highlightframe.png</path>
+   kind="file"
+   action="D">/jchen267/Assignment1.2/src/com/resrc/highlightframe.png</path>
 </paths>
 <msg>update 2</msg>
 </logentry>
@@ -434,26 +664,26 @@
 <date>2017-02-21T22:51:29.973768Z</date>
 <paths>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/.idea/codeStyleSettings.xml</path>
-<path
    kind="file"
-   action="M">/jchen267/Assignment1.2/.idea/workspace.xml</path>
+   action="A">/jchen267/Assignment1.2/.idea/codeStyleSettings.xml</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/GUI-testplan.docx</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/.idea/workspace.xml</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI$BoardPanel.class</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/GUI-testplan.docx</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI$TilePanel.class</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI$BoardPanel.class</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI$TilePanel.class</path>
 <path
    action="M"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI.class</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$1.class</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$1.class</path>
 <path
    kind="file"
    action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$2.class</path>
@@ -467,23 +697,23 @@
    kind="file"
    action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$5.class</path>
 <path
-   action="M"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$6.class</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$6.class</path>
 <path
-   action="M"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$tileMouseListener.class</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$tileMouseListener.class</path>
 <path
-   action="M"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess.class</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess.class</path>
 <path
-   action="M"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$GameControlPanel.class</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$GameControlPanel.class</path>
 <path
-   action="M"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$PlayerPanel.class</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$PlayerPanel.class</path>
 <path
-   action="M"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel.class</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel.class</path>
 <path
    kind="file"
    action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Game.class</path>
@@ -503,23 +733,23 @@
    action="M"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/Tile.class</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Bishop.class</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Bishop.class</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Flyer.class</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Flyer.class</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/King.class</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/King.class</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Knight.class</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Knight.class</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Pawn.class</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Pawn.class</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Piece.class</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Piece.class</path>
 <path
    action="M"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Queen.class</path>
@@ -527,20 +757,20 @@
    action="M"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Rook.class</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Spy.class</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Spy.class</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BishopTest.class</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BishopTest.class</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BoardTest.class</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BoardTest.class</path>
 <path
    kind="file"
    action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/FlyerTest.class</path>
 <path
-   action="M"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/KingTest.class</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/KingTest.class</path>
 <path
    kind="file"
    action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/KnightTest.class</path>
@@ -557,11 +787,11 @@
    kind="file"
    action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/SpyTest.class</path>
 <path
-   action="M"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/UserTest.class</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/UserTest.class</path>
 <path
-   action="M"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/users/User.class</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/users/User.class</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-bishop-framed.png</path>
@@ -578,8 +808,8 @@
    action="A"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-pawn-framed.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-queen-framed.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-queen-framed.png</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-rook-framed.png</path>
@@ -596,8 +826,8 @@
    action="A"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-king-framed.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-knight-framed.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-knight-framed.png</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-pawn-framed.png</path>
@@ -608,14 +838,14 @@
    kind="file"
    action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-rook-framed.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-spy-framed.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-spy-framed.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/frame.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/frame.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/tmp.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/tmp.png</path>
 <path
    action="M"
    kind="file">/jchen267/Assignment1.2/src/com/chess/GUI/BoardGUI.java</path>
@@ -623,20 +853,20 @@
    action="M"
    kind="file">/jchen267/Assignment1.2/src/com/chess/GUI/JChess.java</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/GUI/ScorePanel.java</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/GUI/ScorePanel.java</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/Game.java</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/Game.java</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/Utility/Coordinate.java</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/Utility/Coordinate.java</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/Utility/Pair.java</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/Utility/Pair.java</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/board/Board.java</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/board/Board.java</path>
 <path
    action="M"
    kind="file">/jchen267/Assignment1.2/src/com/chess/board/Tile.java</path>
@@ -647,32 +877,32 @@
    action="M"
    kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Flyer.java</path>
 <path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/King.java</path>
-<path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/Knight.java</path>
-<path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/Pawn.java</path>
-<path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/Piece.java</path>
-<path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/Queen.java</path>
-<path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/Rook.java</path>
-<path
-   kind="file"
-   action="M">/jchen267/Assignment1.2/src/com/chess/pieces/Spy.java</path>
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/King.java</path>
 <path
    action="M"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/BishopTest.groovy</path>
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Knight.java</path>
 <path
    action="M"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/BoardTest.groovy</path>
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Pawn.java</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Piece.java</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Queen.java</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Rook.java</path>
+<path
+   action="M"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Spy.java</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/BishopTest.groovy</path>
+<path
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/BoardTest.groovy</path>
 <path
    kind="file"
    action="M">/jchen267/Assignment1.2/src/com/chess/tests/FlyerTest.groovy</path>
@@ -689,20 +919,20 @@
    kind="file"
    action="M">/jchen267/Assignment1.2/src/com/chess/tests/QueenTest.groovy</path>
 <path
-   action="M"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/RookTest.groovy</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/RookTest.groovy</path>
 <path
-   action="M"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/SpyTest.groovy</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/SpyTest.groovy</path>
 <path
-   action="M"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/TileTest.groovy</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/TileTest.groovy</path>
 <path
-   action="M"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/UserTest.groovy</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/tests/UserTest.groovy</path>
 <path
-   action="M"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/users/User.java</path>
+   kind="file"
+   action="M">/jchen267/Assignment1.2/src/com/chess/users/User.java</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.2/src/com/resrc/B-bishop-framed.png</path>
@@ -710,11 +940,11 @@
    action="A"
    kind="file">/jchen267/Assignment1.2/src/com/resrc/B-flyer-framed.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/resrc/B-king-framed.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-king-framed.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/resrc/B-knight-framed.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-knight-framed.png</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.2/src/com/resrc/B-pawn-framed.png</path>
@@ -731,17 +961,17 @@
    action="A"
    kind="file">/jchen267/Assignment1.2/src/com/resrc/W-bishop-framed.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/resrc/W-flyer-framed.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-flyer-framed.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/resrc/W-king-framed.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-king-framed.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/resrc/W-knight-framed.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-knight-framed.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/resrc/W-pawn-framed.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-pawn-framed.png</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1.2/src/com/resrc/W-queen-framed.png</path>
@@ -752,11 +982,11 @@
    kind="file"
    action="A">/jchen267/Assignment1.2/src/com/resrc/W-spy-framed.png</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/resrc/frame.png</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/frame.png</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/resrc/tmp.png</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/tmp.png</path>
 </paths>
 <msg>updated 1</msg>
 </logentry>
@@ -772,8 +1002,8 @@
    kind="dir"
    action="A">/jchen267/Assignment1.2/.idea</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/.idea/description.html</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/.idea/description.html</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.2/.idea/misc.xml</path>
@@ -796,8 +1026,8 @@
    action="A"
    kind="file">/jchen267/Assignment1.2/ChessGame.iml</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/Doxyfile</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/Doxyfile</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.2/GUI-testplan.docx</path>
@@ -829,8 +1059,8 @@
    kind="file"
    action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI.class</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$1.class</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$1.class</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$2.class</path>
@@ -862,11 +1092,11 @@
    action="A"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel.class</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Game.class</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Game.class</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Main.class</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Main.class</path>
 <path
    action="A"
    kind="dir">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/Utility</path>
@@ -880,11 +1110,11 @@
    action="A"
    kind="dir">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/Board.class</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/Board.class</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/Tile$color.class</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/Tile$color.class</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/board/Tile.class</path>
@@ -895,8 +1125,8 @@
    kind="dir"
    action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Bishop.class</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Bishop.class</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Flyer.class</path>
@@ -913,14 +1143,14 @@
    kind="file"
    action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Piece.class</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/PieceType.class</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/PieceType.class</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Queen.class</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Queen.class</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Rook.class</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Rook.class</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/pieces/Spy.class</path>
@@ -931,8 +1161,8 @@
    action="A"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BishopTest.class</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BoardTest.class</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/BoardTest.class</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/CoordinateTest.class</path>
@@ -949,17 +1179,17 @@
    action="A"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/PawnTest.class</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/QueenTest.class</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/QueenTest.class</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/RookTest.class</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/RookTest.class</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/SpyTest.class</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/SpyTest.class</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/TileTest.class</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/TileTest.class</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/tests/UserTest.class</path>
@@ -967,8 +1197,8 @@
    kind="dir"
    action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/users</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/users/User.class</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/chess/users/User.class</path>
 <path
    kind="dir"
    action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc</path>
@@ -982,11 +1212,11 @@
    kind="file"
    action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-hopper.png</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-king.png</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-king.png</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-knight.png</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-knight.png</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-pawn.png</path>
@@ -997,11 +1227,11 @@
    action="A"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-rook.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-spy.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/B-spy.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-bishop.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-bishop.png</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-flyer.png</path>
@@ -1015,14 +1245,14 @@
    action="A"
    kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-knight.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-pawn.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-pawn.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-queen.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-queen.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-rook.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-rook.png</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/W-spy.png</path>
@@ -1033,11 +1263,11 @@
    kind="file"
    action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/alfilWhite.png</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/highlightframe.png</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/out/production/ChessGame/com/resrc/highlightframe.png</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1.2/src</path>
+   kind="dir"
+   action="A">/jchen267/Assignment1.2/src</path>
 <path
    kind="dir"
    action="A">/jchen267/Assignment1.2/src/com</path>
@@ -1051,17 +1281,17 @@
    kind="file"
    action="A">/jchen267/Assignment1.2/src/com/chess/GUI/BoardGUI.java</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/GUI/JChess.java</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/GUI/JChess.java</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/GUI/ScorePanel.java</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/GUI/ScorePanel.java</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/Game.java</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/Game.java</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/Main.groovy</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/Main.groovy</path>
 <path
    action="A"
    kind="dir">/jchen267/Assignment1.2/src/com/chess/Utility</path>
@@ -1072,8 +1302,8 @@
    action="A"
    kind="file">/jchen267/Assignment1.2/src/com/chess/Utility/Pair.java</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1.2/src/com/chess/board</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/src/com/chess/board</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.2/src/com/chess/board/Board.java</path>
@@ -1090,20 +1320,20 @@
    action="A"
    kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Bishop.java</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/chess/pieces/Flyer.java</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Flyer.java</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/chess/pieces/King.java</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/King.java</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/chess/pieces/Knight.java</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Knight.java</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/chess/pieces/Pawn.java</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Pawn.java</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/chess/pieces/Piece.java</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/pieces/Piece.java</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1.2/src/com/chess/pieces/PieceType.java</path>
@@ -1120,29 +1350,29 @@
    kind="dir"
    action="A">/jchen267/Assignment1.2/src/com/chess/tests</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/BishopTest.groovy</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests/BishopTest.groovy</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/BoardTest.groovy</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests/BoardTest.groovy</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/CoordinateTest.groovy</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests/CoordinateTest.groovy</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/FlyerTest.groovy</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests/FlyerTest.groovy</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/KingTest.groovy</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests/KingTest.groovy</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/KnightTest.groovy</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/chess/tests/KnightTest.groovy</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1.2/src/com/chess/tests/PawnTest.groovy</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/chess/tests/QueenTest.groovy</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/tests/QueenTest.groovy</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.2/src/com/chess/tests/RookTest.groovy</path>
@@ -1156,32 +1386,32 @@
    action="A"
    kind="file">/jchen267/Assignment1.2/src/com/chess/tests/UserTest.groovy</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1.2/src/com/chess/users</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/src/com/chess/users</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/chess/users/User.java</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/chess/users/User.java</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1.2/src/com/resrc</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1.2/src/com/resrc</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/resrc/B-bishop.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-bishop.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/resrc/B-flyer.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-flyer.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/resrc/B-hopper.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-hopper.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/resrc/B-king.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-king.png</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.2/src/com/resrc/B-knight.png</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.2/src/com/resrc/B-pawn.png</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.2/src/com/resrc/B-pawn.png</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1.2/src/com/resrc/B-queen.png</path>
@@ -1195,23 +1425,23 @@
    kind="file"
    action="A">/jchen267/Assignment1.2/src/com/resrc/W-bishop.png</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-flyer.png</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-flyer.png</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-hopper.png</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-hopper.png</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-king.png</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-king.png</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-knight.png</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-knight.png</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-pawn.png</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-pawn.png</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.2/src/com/resrc/W-queen.png</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.2/src/com/resrc/W-queen.png</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1.2/src/com/resrc/W-rook.png</path>
@@ -1262,26 +1492,26 @@
    kind="file"
    action="A">/jchen267/Assignment1.1/ChessGame.iml</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.1/Doxyfile</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.1/Doxyfile</path>
 <path
    action="A"
    kind="dir">/jchen267/Assignment1.1/src</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1.1/src/com</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1.1/src/com</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1.1/src/com/chess</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1.1/src/com/chess</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1.1/src/com/chess/GUI</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1.1/src/com/chess/GUI</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.1/src/com/chess/GUI/BoardGUI.java</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/GUI/BoardGUI.java</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.1/src/com/chess/GUI/JChess.java</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/GUI/JChess.java</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.1/src/com/chess/Game.java</path>
@@ -1310,17 +1540,17 @@
    kind="dir"
    action="A">/jchen267/Assignment1.1/src/com/chess/pieces</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.1/src/com/chess/pieces/Bishop.java</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.1/src/com/chess/pieces/Bishop.java</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.1/src/com/chess/pieces/King.java</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.1/src/com/chess/pieces/King.java</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.1/src/com/chess/pieces/Knight.java</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.1/src/com/chess/pieces/Knight.java</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1.1/src/com/chess/pieces/Pawn.java</path>
+   kind="file"
+   action="A">/jchen267/Assignment1.1/src/com/chess/pieces/Pawn.java</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1.1/src/com/chess/pieces/Piece.java</path>
@@ -1340,8 +1570,8 @@
    kind="file"
    action="A">/jchen267/Assignment1.1/src/com/chess/tests/BoardTest.groovy</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.1/src/com/chess/tests/CoordinateTest.groovy</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/tests/CoordinateTest.groovy</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.1/src/com/chess/tests/FlyerTest.groovy</path>
@@ -1349,20 +1579,20 @@
    action="A"
    kind="file">/jchen267/Assignment1.1/src/com/chess/tests/KingTest.groovy</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.1/src/com/chess/tests/KnightTest.groovy</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/tests/KnightTest.groovy</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.1/src/com/chess/tests/PawnTest.groovy</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/tests/PawnTest.groovy</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.1/src/com/chess/tests/RookTest.groovy</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/tests/RookTest.groovy</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.1/src/com/chess/tests/SpyTest.groovy</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/tests/SpyTest.groovy</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1.1/src/com/chess/tests/TileTest.groovy</path>
+   action="A"
+   kind="file">/jchen267/Assignment1.1/src/com/chess/tests/TileTest.groovy</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1.1/src/com/chess/tests/UserTest.groovy</path>
@@ -1381,8 +1611,8 @@
 <date>2017-02-06T21:56:35.546221Z</date>
 <paths>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1</path>
+   kind="dir"
+   action="A">/jchen267/Assignment1</path>
 <path
    action="A"
    kind="dir">/jchen267/Assignment1/ChessGame</path>
@@ -1396,8 +1626,8 @@
    action="A"
    kind="file">/jchen267/Assignment1/ChessGame/.git/HEAD</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/.git/config</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/config</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1/ChessGame/.git/description</path>
@@ -1435,8 +1665,8 @@
    kind="file"
    action="A">/jchen267/Assignment1/ChessGame/.git/hooks/update.sample</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/.git/index</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/index</path>
 <path
    kind="dir"
    action="A">/jchen267/Assignment1/ChessGame/.git/info</path>
@@ -1447,11 +1677,11 @@
    kind="dir"
    action="A">/jchen267/Assignment1/ChessGame/.git/logs</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/.git/logs/HEAD</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/logs/HEAD</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1/ChessGame/.git/logs/refs</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/logs/refs</path>
 <path
    action="A"
    kind="dir">/jchen267/Assignment1/ChessGame/.git/logs/refs/heads</path>
@@ -1474,8 +1704,8 @@
    action="A"
    kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/00</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/.git/objects/00/9b002c698335765099b722ca0eafbdee62b6f0</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/00/9b002c698335765099b722ca0eafbdee62b6f0</path>
 <path
    action="A"
    kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/36</path>
@@ -1489,11 +1719,11 @@
    action="A"
    kind="file">/jchen267/Assignment1/ChessGame/.git/objects/3b/8510490b3624b25f029cc4e33ca45dd79cf780</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/41</path>
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/41</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/41/1d734c9ccf4614838628b2d9589da0ac84738a</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/41/1d734c9ccf4614838628b2d9589da0ac84738a</path>
 <path
    kind="dir"
    action="A">/jchen267/Assignment1/ChessGame/.git/objects/4f</path>
@@ -1510,26 +1740,26 @@
    kind="file"
    action="A">/jchen267/Assignment1/ChessGame/.git/objects/52/ed7ef5b564811c35fc1c6166a55920c6c66964</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/53</path>
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/53</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/53/eb0abdac1c88115daf8b6ad605cc9e3449ea8d</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/53/eb0abdac1c88115daf8b6ad605cc9e3449ea8d</path>
 <path
    kind="dir"
    action="A">/jchen267/Assignment1/ChessGame/.git/objects/61</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/.git/objects/61/e2e86330a75a5b125637fa6480cd077b67b9e6</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/61/e2e86330a75a5b125637fa6480cd077b67b9e6</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1/ChessGame/.git/objects/64</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/64</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/.git/objects/64/9865f03574bb78d6527f0cc17105a0b3235650</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/64/9865f03574bb78d6527f0cc17105a0b3235650</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1/ChessGame/.git/objects/67</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/67</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1/ChessGame/.git/objects/67/1e8fd080a887fbc44de58da49e19ad7f1be638</path>
@@ -1549,26 +1779,26 @@
    action="A"
    kind="file">/jchen267/Assignment1/ChessGame/.git/objects/8d/05bc93235ea747e4b6c7835db7a313f1114e28</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/.git/objects/8d/1aca67cac4f977aeb952b299e92a9beb1b441c</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/8d/1aca67cac4f977aeb952b299e92a9beb1b441c</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1/ChessGame/.git/objects/ac</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/ac</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1/ChessGame/.git/objects/ac/5c1d7c7bb07d8a914e6af9a396991448ff4be7</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/b5</path>
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/b5</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/b5/28ab13c4095e21270b1866c27803c07d8faaab</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/b5/28ab13c4095e21270b1866c27803c07d8faaab</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/bc</path>
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/bc</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/bc/da93bc3aeb34f65063b21ac452aedf218546db</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/bc/da93bc3aeb34f65063b21ac452aedf218546db</path>
 <path
    kind="dir"
    action="A">/jchen267/Assignment1/ChessGame/.git/objects/c0</path>
@@ -1588,26 +1818,26 @@
    kind="file"
    action="A">/jchen267/Assignment1/ChessGame/.git/objects/d2/592a0039d1abfeeebc520d52d154ab7a18fb3e</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/d5</path>
-<path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/d5/c074327501eaec3fe451ed56ce5160f1e97e16</path>
-<path
    kind="dir"
-   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d6</path>
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d5</path>
 <path
    kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d6/54fa49c95d086bd53b340aa026baa249f42280</path>
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d5/c074327501eaec3fe451ed56ce5160f1e97e16</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d9</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/d6</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d9/d1a8b542839d8a54941aceb81e5989a7affd8a</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/d6/54fa49c95d086bd53b340aa026baa249f42280</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/.git/objects/d9/d32b4c183273acc8d3b56e83684e7af5919337</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/d9</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/d9/d1a8b542839d8a54941aceb81e5989a7affd8a</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/d9/d32b4c183273acc8d3b56e83684e7af5919337</path>
 <path
    action="A"
    kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/e0</path>
@@ -1621,26 +1851,26 @@
    action="A"
    kind="file">/jchen267/Assignment1/ChessGame/.git/objects/e5/bee7f530b126fe289e510c6d41f2f03c98f68c</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1/ChessGame/.git/objects/e7</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/e7</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/.git/objects/e7/af897dc5282e3570762ef9d8b92fee057f867c</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/e7/af897dc5282e3570762ef9d8b92fee057f867c</path>
 <path
    action="A"
    kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/e9</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/e9/6534fb27b68192f27f985d3879e173ec77adb8</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/e9/6534fb27b68192f27f985d3879e173ec77adb8</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/ec</path>
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/ec</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/.git/objects/ec/11555969b6cdc649dfe83f230afc3358053ba1</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/ec/11555969b6cdc649dfe83f230afc3358053ba1</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1/ChessGame/.git/objects/f8</path>
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/objects/f8</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1/ChessGame/.git/objects/f8/ac7b56619305f63fc9a4318a4412bf68b093a4</path>
@@ -1663,23 +1893,23 @@
    kind="dir"
    action="A">/jchen267/Assignment1/ChessGame/.git/refs/remotes</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1/ChessGame/.git/refs/remotes/origin</path>
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/.git/refs/remotes/origin</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1/ChessGame/.git/refs/remotes/origin/master</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1/ChessGame/.git/refs/tags</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.git/refs/tags</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1/ChessGame/.idea</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/.idea</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/.idea/description.html</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.idea/description.html</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/.idea/misc.xml</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/.idea/misc.xml</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1/ChessGame/.idea/modules.xml</path>
@@ -1702,26 +1932,26 @@
    action="A"
    kind="dir">/jchen267/Assignment1/ChessGame/out</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1/ChessGame/out/production</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/out/production</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/out/production/ChessGame</path>
 <path
    action="A"
    kind="dir">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess</path>
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/Main.class</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/Main.class</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/board</path>
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/board</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/board/Tile$color.class</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/board/Tile$color.class</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/board/Tile.class</path>
@@ -1744,8 +1974,8 @@
    action="A"
    kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Knight.class</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Pawn.class</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Pawn.class</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Piece.class</path>
@@ -1753,14 +1983,14 @@
    action="A"
    kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/PieceType.class</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Queen.class</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Queen.class</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Rook.class</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/Rook.class</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/RookTest.class</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/pieces/RookTest.class</path>
 <path
    kind="dir"
    action="A">/jchen267/Assignment1/ChessGame/out/production/ChessGame/com/chess/users</path>
@@ -1783,26 +2013,26 @@
    kind="file"
    action="A">/jchen267/Assignment1/ChessGame/src/com/chess/Main.java</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1/ChessGame/src/com/chess/board</path>
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/board</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/board/Board.java</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/board/Board.java</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1/ChessGame/src/com/chess/board/BoardTest.groovy</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/board/Tile.java</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/board/Tile.java</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/board/TileTest.groovy</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/board/TileTest.groovy</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/pieces</path>
+   action="A"
+   kind="dir">/jchen267/Assignment1/ChessGame/src/com/chess/pieces</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Bishop.java</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Bishop.java</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Coordinate.java</path>
@@ -1822,32 +2052,32 @@
    action="A"
    kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Pawn.java</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Piece.java</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Piece.java</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/PieceType.java</path>
+   action="A"
+   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/PieceType.java</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Queen.java</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Rook.java</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/Rook.java</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/RookTest.groovy</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/pieces/RookTest.groovy</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1/ChessGame/src/com/chess/tests</path>
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/tests</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment1/ChessGame/src/com/chess/users</path>
+   kind="dir"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/users</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment1/ChessGame/src/com/chess/users/User.java</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment1/ChessGame/src/com/chess/users/UserTest.groovy</path>
+   kind="file"
+   action="A">/jchen267/Assignment1/ChessGame/src/com/chess/users/UserTest.groovy</path>
 </paths>
 <msg>unfinished by due 1</msg>
 </logentry>
@@ -1857,20 +2087,20 @@
 <date>2017-01-29T01:33:55.228487Z</date>
 <paths>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment0</path>
+   kind="dir"
+   action="A">/jchen267/Assignment0</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment0/.classpath</path>
+   kind="file"
+   action="A">/jchen267/Assignment0/.classpath</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment0/.idea</path>
+   kind="dir"
+   action="A">/jchen267/Assignment0/.idea</path>
 <path
    kind="file"
    action="A">/jchen267/Assignment0/.idea/misc.xml</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment0/.idea/modules.xml</path>
+   action="A"
+   kind="file">/jchen267/Assignment0/.idea/modules.xml</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment0/.idea/workspace.xml</path>
@@ -1887,23 +2117,23 @@
    action="A"
    kind="file">/jchen267/Assignment0/COPYING</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment0/assign0.iml</path>
+   action="A"
+   kind="file">/jchen267/Assignment0/assign0.iml</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment0/bin</path>
+   action="A"
+   kind="dir">/jchen267/Assignment0/bin</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment0/bin/lanSimulation</path>
+   action="A"
+   kind="dir">/jchen267/Assignment0/bin/lanSimulation</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment0/bin/lanSimulation/LANSimulation.class</path>
+   action="A"
+   kind="file">/jchen267/Assignment0/bin/lanSimulation/LANSimulation.class</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment0/bin/lanSimulation/Network.class</path>
+   action="A"
+   kind="file">/jchen267/Assignment0/bin/lanSimulation/Network.class</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment0/bin/lanSimulation/internals</path>
+   action="A"
+   kind="dir">/jchen267/Assignment0/bin/lanSimulation/internals</path>
 <path
    action="A"
    kind="file">/jchen267/Assignment0/bin/lanSimulation/internals/Node.class</path>
@@ -1926,32 +2156,32 @@
    kind="dir"
    action="A">/jchen267/Assignment0/doc</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment0/doc/LANSimulationDocument.pdf</path>
+   kind="file"
+   action="A">/jchen267/Assignment0/doc/LANSimulationDocument.pdf</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment0/doc/README</path>
+   kind="file"
+   action="A">/jchen267/Assignment0/doc/README</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment0/doc/RefactoringAssignment.pdf</path>
+   kind="file"
+   action="A">/jchen267/Assignment0/doc/RefactoringAssignment.pdf</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment0/doc/toDoList</path>
+   kind="file"
+   action="A">/jchen267/Assignment0/doc/toDoList</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment0/expectedOutput.txt</path>
+   kind="file"
+   action="A">/jchen267/Assignment0/expectedOutput.txt</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment0/javadoc.xml</path>
+   kind="file"
+   action="A">/jchen267/Assignment0/javadoc.xml</path>
 <path
-   action="A"
-   kind="dir">/jchen267/Assignment0/out</path>
+   kind="dir"
+   action="A">/jchen267/Assignment0/out</path>
 <path
    kind="dir"
    action="A">/jchen267/Assignment0/out/production</path>
 <path
-   kind="dir"
-   action="A">/jchen267/Assignment0/out/production/assign0</path>
+   action="A"
+   kind="dir">/jchen267/Assignment0/out/production/assign0</path>
 <path
    action="A"
    kind="dir">/jchen267/Assignment0/out/production/assign0/lanSimulation</path>
@@ -1968,29 +2198,29 @@
    action="A"
    kind="file">/jchen267/Assignment0/out/production/assign0/lanSimulation/internals/Node.class</path>
 <path
-   kind="file"
-   action="A">/jchen267/Assignment0/out/production/assign0/lanSimulation/internals/Packet.class</path>
-<path
-   kind="dir"
-   action="A">/jchen267/Assignment0/out/production/assign0/lanSimulation/tests</path>
-<path
-   kind="file"
-   action="A">/jchen267/Assignment0/out/production/assign0/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
-<path
-   kind="file"
-   action="A">/jchen267/Assignment0/out/production/assign0/lanSimulation/tests/LANTests.class</path>
-<path
-   kind="dir"
-   action="A">/jchen267/Assignment0/src</path>
-<path
-   kind="dir"
-   action="A">/jchen267/Assignment0/src/lanSimulation</path>
-<path
-   kind="file"
-   action="A">/jchen267/Assignment0/src/lanSimulation/LANSimulation.java</path>
+   action="A"
+   kind="file">/jchen267/Assignment0/out/production/assign0/lanSimulation/internals/Packet.class</path>
 <path
    action="A"
-   kind="file">/jchen267/Assignment0/src/lanSimulation/Network.java</path>
+   kind="dir">/jchen267/Assignment0/out/production/assign0/lanSimulation/tests</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/out/production/assign0/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/out/production/assign0/lanSimulation/tests/LANTests.class</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment0/src</path>
+<path
+   action="A"
+   kind="dir">/jchen267/Assignment0/src/lanSimulation</path>
+<path
+   action="A"
+   kind="file">/jchen267/Assignment0/src/lanSimulation/LANSimulation.java</path>
+<path
+   kind="file"
+   action="A">/jchen267/Assignment0/src/lanSimulation/Network.java</path>
 <path
    kind="dir"
    action="A">/jchen267/Assignment0/src/lanSimulation/internals</path>
@@ -2007,8 +2237,8 @@
    kind="file"
    action="A">/jchen267/Assignment0/src/lanSimulation/tests/LANTests.java</path>
 <path
-   action="A"
-   kind="file">/jchen267/Assignment0/useOutput.txt</path>
+   kind="file"
+   action="A">/jchen267/Assignment0/useOutput.txt</path>
 </paths>
 <msg>should be done</msg>
 </logentry>
@@ -2018,8 +2248,8 @@
 <date>2017-01-24T19:28:03.500939Z</date>
 <paths>
 <path
-   kind="dir"
-   action="A">/jchen267</path>
+   action="A"
+   kind="dir">/jchen267</path>
 </paths>
 <msg>created directory jchen267</msg>
 </logentry>

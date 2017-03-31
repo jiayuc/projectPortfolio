@@ -4,7 +4,20 @@
 const express = require('express');
 const router = express.Router();
 const project = require('../models/project');
+const db = require("../models/Database.js");
 
+
+
+// added router for testing comment
+router.get("/comment", function(req, res) {
+    db.getCommentsByPathname("Assignment1/ChessGame/.idea/description.html", 
+        (comments)=> {
+            console.log("comments: ", comments);
+            res.render('comment', {
+                comments : comments
+            });
+    });
+});
 
 // route to detailed file page
 router.get("/path", function(req, res) {

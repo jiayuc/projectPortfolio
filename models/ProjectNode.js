@@ -7,14 +7,14 @@
  * @param {number} size - size of file
  * @param {string} date - date of file
  * @param {string} version - version of file
- * @param {string} summary - summary of file
+ * @param {string} author - author of file
  * @param {string} tree - the file tree under this project
  */
-const ProjectNode = function(name, date, version, summary, tree) {
+const ProjectNode = function(name, date, version, author, tree) {
     this.name = name;
     this.date = new Date(date);
     this.version = version;
-    this.summary = summary ? 'empty commit msg' : summary;
+    this.author = author;
 
     this.fileTree = tree;
 };

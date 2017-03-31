@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>HTML5/CSS3 Threaded Comments Block</title>
+    <link rel="shortcut icon" href="http://www.webdesignerdepot.com/favicon.ico">
+    <link rel="icon" href="http://www.webdesignerdepot.com/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/comment.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Wellfleet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+    <script src="js/comment.js"></script>
+
+    <!--[if lt IE 9]>
+  <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <div id="w">
+        <h1>Comment section</h1>
+
+        <div id="container">
+            <ul id="comments">
+            <% for(var i=0; i<comments.length; i++) {%>
+              <%- include('comment_single', {comment: comments[i]}); %>   
+            <% } %>         
+        </div>
+        </li>
+        </ul>
+    </div>
+    </div>
+</body>
+
+</html>

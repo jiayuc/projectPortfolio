@@ -1104,3 +1104,3557 @@
 <date>2017-02-13T21:48:47.755268Z</date>
 </commit>
 </entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/uiDesigner.xml</name>
+<size>8792</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/ChessGame.iml</name>
+<size>1439</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Doxyfile</name>
+<size>77197</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/GUI-testplan.docx</name>
+<size>50971</size>
+<commit
+   revision="4407">
+<author>jchen267</author>
+<date>2017-02-13T21:56:03.750380Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src</name>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/com</name>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/com/chess</name>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/com/chess/GUI</name>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/GUI/BoardGUI.java</name>
+<size>4685</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/GUI/JChess.java</name>
+<size>287</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/Game.java</name>
+<size>3740</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/Main.groovy</name>
+<size>153</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/com/chess/Utility</name>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/Utility/Coordinate.java</name>
+<size>2127</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/com/chess/board</name>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/board/Board.java</name>
+<size>10985</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/board/Tile.java</name>
+<size>1634</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/board/tmp</name>
+<size>254</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/com/chess/pieces</name>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/pieces/Bishop.java</name>
+<size>1826</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/pieces/King.java</name>
+<size>1428</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/pieces/Knight.java</name>
+<size>2113</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/pieces/Pawn.java</name>
+<size>3775</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/pieces/Piece.java</name>
+<size>3433</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/pieces/PieceType.java</name>
+<size>232</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/pieces/Queen.java</name>
+<size>1884</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/pieces/Rook.java</name>
+<size>2004</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/com/chess/tests</name>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/tests/BoardTest.groovy</name>
+<size>4067</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/tests/CoordinateTest.groovy</name>
+<size>387</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/tests/FlyerTest.groovy</name>
+<size>2136</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/tests/KingTest.groovy</name>
+<size>2470</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/tests/KnightTest.groovy</name>
+<size>2701</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/tests/PawnTest.groovy</name>
+<size>3981</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/tests/RookTest.groovy</name>
+<size>2107</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/tests/SpyTest.groovy</name>
+<size>3092</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/tests/TileTest.groovy</name>
+<size>988</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/tests/UserTest.groovy</name>
+<size>450</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/com/chess/users</name>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/com/chess/users/User.java</name>
+<size>760</size>
+<commit
+   revision="4404">
+<author>jchen267</author>
+<date>2017-02-13T21:48:47.755268Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/.idea</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/codeStyleSettings.xml</name>
+<size>281</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/description.html</name>
+<size>97</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/misc.xml</name>
+<size>489</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/modules.xml</name>
+<size>265</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/project-template.xml</name>
+<size>91</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/uiDesigner.xml</name>
+<size>8792</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/vcs.xml</name>
+<size>180</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/workspace.xml</name>
+<size>97573</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/ChessGame.iml</name>
+<size>1485</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Doxyfile</name>
+<size>77197</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/GUI-testplan.docx</name>
+<size>524662</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/ChessGame</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/ChessGame/com</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/ChessGame/com/chess</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI$BoardPanel.class</name>
+<size>1924</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI$TilePanel.class</name>
+<size>4004</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI/BoardGUI.class</name>
+<size>6095</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$1.class</name>
+<size>873</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$2.class</name>
+<size>1391</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$3.class</name>
+<size>1392</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$4.class</name>
+<size>1217</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$5.class</name>
+<size>1217</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$6.class</name>
+<size>1088</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess$tileMouseListener.class</name>
+<size>2813</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI/JChess.class</name>
+<size>7649</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$GameControlPanel.class</name>
+<size>1179</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel$PlayerPanel.class</name>
+<size>2083</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/GUI/ScorePanel.class</name>
+<size>1557</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/Game.class</name>
+<size>3511</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/Main.class</name>
+<size>2793</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/ChessGame/com/chess/Utility</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/Utility/Coordinate.class</name>
+<size>1439</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/ChessGame/com/chess/board</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/board/Board.class</name>
+<size>13380</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/board/Tile$color.class</name>
+<size>1033</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/board/Tile.class</name>
+<size>1258</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/ChessGame/com/chess/pieces</name>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/pieces/Bishop.class</name>
+<size>2440</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/pieces/Flyer.class</name>
+<size>2895</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/pieces/King.class</name>
+<size>2274</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/pieces/Knight.class</name>
+<size>2474</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/pieces/Pawn.class</name>
+<size>3790</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/pieces/Piece.class</name>
+<size>3658</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/pieces/PieceType.class</name>
+<size>1287</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/pieces/Queen.class</name>
+<size>2448</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/pieces/Rook.class</name>
+<size>2479</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/pieces/Spy.class</name>
+<size>4367</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/ChessGame/com/chess/tests</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/tests/BishopTest.class</name>
+<size>8286</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/tests/BoardTest.class</name>
+<size>19746</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/tests/CoordinateTest.class</name>
+<size>3481</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/tests/FlyerTest.class</name>
+<size>8416</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/tests/KingTest.class</name>
+<size>6815</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/tests/KnightTest.class</name>
+<size>9510</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/tests/PawnTest.class</name>
+<size>12854</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/tests/QueenTest.class</name>
+<size>10657</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/tests/RookTest.class</name>
+<size>8208</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/tests/SpyTest.class</name>
+<size>11006</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/tests/TileTest.class</name>
+<size>4728</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/tests/UserTest.class</name>
+<size>3701</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/ChessGame/com/chess/users</name>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/chess/users/User.class</name>
+<size>639</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/ChessGame/com/resrc</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-bishop-framed.png</name>
+<size>4406</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-bishop.png</name>
+<size>1260</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-flyer-framed.png</name>
+<size>4317</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-flyer.png</name>
+<size>1220</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-king-framed.png</name>
+<size>5457</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-king.png</name>
+<size>2485</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-knight-framed.png</name>
+<size>4724</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-knight.png</name>
+<size>1516</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-pawn-framed.png</name>
+<size>3973</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-pawn.png</name>
+<size>797</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-queen-framed.png</name>
+<size>5358</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-queen.png</name>
+<size>2267</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-rook-framed.png</name>
+<size>3944</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-rook.png</name>
+<size>725</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-spy-framed.png</name>
+<size>3587</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/B-spy.png</name>
+<size>448</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-bishop-framed.png</name>
+<size>5010</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-bishop.png</name>
+<size>2369</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-flyer-framed.png</name>
+<size>4840</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-flyer.png</name>
+<size>1737</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-king-framed.png</name>
+<size>5306</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-king.png</name>
+<size>2279</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-knight-framed.png</name>
+<size>4990</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-knight.png</name>
+<size>1878</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-pawn-framed.png</name>
+<size>4467</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-pawn.png</name>
+<size>1294</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-queen-framed.png</name>
+<size>5758</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-queen.png</name>
+<size>2637</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-rook-framed.png</name>
+<size>4080</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-rook.png</name>
+<size>933</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-spy-framed.png</name>
+<size>4353</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/W-spy.png</name>
+<size>879</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/frame.png</name>
+<size>3280</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/ChessGame/com/resrc/tmp.png</name>
+<size>3280</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com/chess</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com/chess/GUI</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/GUI/BoardGUI.java</name>
+<size>9635</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/GUI/JChess.java</name>
+<size>13039</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/GUI/ScorePanel.java</name>
+<size>3530</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/Game.java</name>
+<size>3851</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/Main.groovy</name>
+<size>277</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com/chess/Utility</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/Utility/Coordinate.java</name>
+<size>2463</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com/chess/board</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/board/Board.java</name>
+<size>24606</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/board/Tile.java</name>
+<size>1765</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com/chess/pieces</name>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/pieces/Bishop.java</name>
+<size>2285</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/pieces/Flyer.java</name>
+<size>3832</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/pieces/King.java</name>
+<size>2036</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/pieces/Knight.java</name>
+<size>2586</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/pieces/Pawn.java</name>
+<size>4373</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/pieces/Piece.java</name>
+<size>5021</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/pieces/PieceType.java</name>
+<size>250</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/pieces/Queen.java</name>
+<size>2347</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/pieces/Rook.java</name>
+<size>2474</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/pieces/Spy.java</name>
+<size>5314</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com/chess/tests</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/tests/BishopTest.groovy</name>
+<size>2315</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/tests/BoardTest.groovy</name>
+<size>11168</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/tests/CoordinateTest.groovy</name>
+<size>505</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/tests/FlyerTest.groovy</name>
+<size>2487</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/tests/KingTest.groovy</name>
+<size>2271</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/tests/KnightTest.groovy</name>
+<size>3174</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/tests/PawnTest.groovy</name>
+<size>4405</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/tests/QueenTest.groovy</name>
+<size>4208</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/tests/RookTest.groovy</name>
+<size>2555</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/tests/SpyTest.groovy</name>
+<size>3723</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/tests/TileTest.groovy</name>
+<size>1025</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/tests/UserTest.groovy</name>
+<size>719</size>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com/chess/users</name>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/chess/users/User.java</name>
+<size>820</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/com/resrc</name>
+<commit
+   revision="5429">
+<author>jchen267</author>
+<date>2017-02-21T23:33:56.307489Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-bishop-framed.png</name>
+<size>4406</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-bishop.png</name>
+<size>1260</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-flyer-framed.png</name>
+<size>4317</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-flyer.png</name>
+<size>1220</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-king-framed.png</name>
+<size>5457</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-king.png</name>
+<size>2485</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-knight-framed.png</name>
+<size>4724</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-knight.png</name>
+<size>1516</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-pawn-framed.png</name>
+<size>3973</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-pawn.png</name>
+<size>797</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-queen-framed.png</name>
+<size>5358</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-queen.png</name>
+<size>2267</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-rook-framed.png</name>
+<size>3944</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-rook.png</name>
+<size>725</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-spy-framed.png</name>
+<size>3587</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/B-spy.png</name>
+<size>448</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-bishop-framed.png</name>
+<size>5010</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-bishop.png</name>
+<size>2369</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-flyer-framed.png</name>
+<size>4840</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-flyer.png</name>
+<size>1737</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-king-framed.png</name>
+<size>5306</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-king.png</name>
+<size>2279</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-knight-framed.png</name>
+<size>4990</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-knight.png</name>
+<size>1878</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-pawn-framed.png</name>
+<size>4467</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-pawn.png</name>
+<size>1294</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-queen-framed.png</name>
+<size>5758</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-queen.png</name>
+<size>2637</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-rook-framed.png</name>
+<size>4080</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-rook.png</name>
+<size>933</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-spy-framed.png</name>
+<size>4353</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/W-spy.png</name>
+<size>879</size>
+<commit
+   revision="5281">
+<author>jchen267</author>
+<date>2017-02-20T21:49:53.474767Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/frame.png</name>
+<size>3280</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/com/resrc/tmp.png</name>
+<size>3280</size>
+<commit
+   revision="5422">
+<author>jchen267</author>
+<date>2017-02-21T22:51:29.973768Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1</name>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/.idea</name>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/.idea/inspectionProfiles</name>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/misc.xml</name>
+<size>188</size>
+<commit
+   revision="5859">
+<author>jchen267</author>
+<date>2017-02-27T21:28:45.008999Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/modules.xml</name>
+<size>268</size>
+<commit
+   revision="5859">
+<author>jchen267</author>
+<date>2017-02-27T21:28:45.008999Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/untitled.iml</name>
+<size>8851</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/vcs.xml</name>
+<size>180</size>
+<commit
+   revision="5859">
+<author>jchen267</author>
+<date>2017-02-27T21:28:45.008999Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/workspace.xml</name>
+<size>64267</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/src</name>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/src/graph</name>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/graph/edge.rb</name>
+<size>468</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/graph/graph.rb</name>
+<size>2965</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/graph/node.rb</name>
+<size>292</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/src/scrapper</name>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/scrapper/actor.rb</name>
+<size>756</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/src/scrapper/config</name>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/scrapper/config/cacert.pem</name>
+<size>265961</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/scrapper/film.rb</name>
+<size>919</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/src/scrapper/log</name>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/scrapper/log/logfile.log</name>
+<size>389</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/scrapper/log/ret.html</name>
+<size>102</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/scrapper/log/ret.txt</name>
+<size>0</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/scrapper/log/tmp.html</name>
+<size>2</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/src/scrapper/web_scrapper.rb</name>
+<size>8417</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/tests</name>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/actorTest.rb</name>
+<size>781</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/filmTest.rb</name>
+<size>965</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/graphTest.rb</name>
+<size>1570</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/scrapperTest.rb</name>
+<size>2038</size>
+<commit
+   revision="5965">
+<author>jchen267</author>
+<date>2017-02-28T19:14:17.249131Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2</name>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/.idea</name>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/.idea/inspectionProfiles</name>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/.idea/misc.xml</name>
+<size>188</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/.idea/modules.xml</name>
+<size>268</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/.idea/untitled.iml</name>
+<size>6712</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/.idea/vcs.xml</name>
+<size>180</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/.idea/workspace.xml</name>
+<size>73525</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/Manual Test Plan.docx</name>
+<size>126373</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/degreeOfDegree.jpg</name>
+<size>64085</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/src</name>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/src/api</name>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/api/api.rb</name>
+<size>8993</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/src/graph</name>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/graph/edge.rb</name>
+<size>468</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/graph/graph.rb</name>
+<size>2006</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/graph/node.rb</name>
+<size>303</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/src/infoNetwork</name>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/infoNetwork/info_network.rb</name>
+<size>8716</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/infoNetwork/network.json</name>
+<size>32842</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/src/resource</name>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/resource/data.json</name>
+<size>443661</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/src/scrapper</name>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/scrapper/actor.rb</name>
+<size>1006</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/src/scrapper/config</name>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/scrapper/config/cacert.pem</name>
+<size>265961</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/scrapper/data.json</name>
+<size>443856</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/scrapper/film.rb</name>
+<size>1150</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/src/scrapper/log</name>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/scrapper/log/logfile.log</name>
+<size>4097</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/scrapper/log/ret.html</name>
+<size>0</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/scrapper/log/ret.txt</name>
+<size>0</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/scrapper/log/tmp.html</name>
+<size>0</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/src/scrapper/web_scrapper.rb</name>
+<size>8458</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/tests</name>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/tests/actorTest.rb</name>
+<size>781</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/tests/filmTest.rb</name>
+<size>971</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/tests/graphTest.rb</name>
+<size>734</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/tests/scrapperTest.rb</name>
+<size>2038</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.2/visualization</name>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/visualization/data.json</name>
+<size>74890</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.2/visualization/visualization.py</name>
+<size>3370</size>
+<commit
+   revision="6430">
+<author>jchen267</author>
+<date>2017-03-06T18:47:32.697464Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0</name>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/projectPortfolio</name>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/app.js</name>
+<size>772</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/projectPortfolio/controllers</name>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/controllers/index.js</name>
+<size>809</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/controllers/router.js</name>
+<size>965</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/projectPortfolio/models</name>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/models/FileNode.js</name>
+<size>1261</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/models/FileTree.js</name>
+<size>1319</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/models/ProjectNode.js</name>
+<size>596</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/models/RevisionNode.js</name>
+<size>954</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/projectPortfolio/models/data</name>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/models/data/svn_list.json</name>
+<size>277398</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/models/data/svn_list.xml</name>
+<size>23954</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/models/data/svn_list_test.xml</name>
+<size>1668</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/models/data/svn_log.json</name>
+<size>114698</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/models/data/svn_log.xml</name>
+<size>66988</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/models/data/svn_log_test.xml</name>
+<size>4873</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/models/project.js</name>
+<size>5500</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/models/svn.sh</name>
+<size>473</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/package.json</name>
+<size>852</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/projectPortfolio/public</name>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/projectPortfolio/public/css</name>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/css/main.css</name>
+<size>11799</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/css/reset.css</name>
+<size>2113</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/projectPortfolio/public/fonts</name>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/fonts/raleway-bold.eot</name>
+<size>27105</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/fonts/raleway-bold.svg</name>
+<size>128891</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/fonts/raleway-bold.ttf</name>
+<size>53164</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/fonts/raleway-bold.woff</name>
+<size>29996</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/fonts/raleway-regular.eot</name>
+<size>27213</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/fonts/raleway-regular.svg</name>
+<size>130930</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/fonts/raleway-regular.ttf</name>
+<size>53836</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/fonts/raleway-regular.woff</name>
+<size>29936</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/fonts/raleway-semibold.eot</name>
+<size>27083</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/fonts/raleway-semibold.svg</name>
+<size>130275</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/fonts/raleway-semibold.ttf</name>
+<size>53148</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/fonts/raleway-semibold.woff</name>
+<size>29776</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/projectPortfolio/public/img</name>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/943997_811384278967195_9121880394064609925_n.jpg</name>
+<size>153044</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/chess.jpg</name>
+<size>26402</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/chess.png</name>
+<size>63056</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/cjy.jpg</name>
+<size>157064</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/hero_image.jpg</name>
+<size>15437</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/logo.jpg</name>
+<size>11636</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/men_icons.png</name>
+<size>1329</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/model.jpg</name>
+<size>8887</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/ori-logo.png</name>
+<size>1940</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/p_navigation.png</name>
+<size>1347</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/point.png</name>
+<size>1669</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/sm.png</name>
+<size>1907</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/sm2.png</name>
+<size>1986</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/sm_hover.png</name>
+<size>2494</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/swim.jpg</name>
+<size>10107</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/view.jpg</name>
+<size>10874</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/webCrawler.png</name>
+<size>34675</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/img/webNet.png</name>
+<size>64502</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/projectPortfolio/public/js</name>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/js/jquery.js</name>
+<size>96383</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/js/main.js</name>
+<size>1950</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/public/js/map.js</name>
+<size>1544</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/projectPortfolio/test</name>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/test/test.js</name>
+<size>1807</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/projectPortfolio/views</name>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/views/app.js</name>
+<size>778</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/views/contact.html</name>
+<size>2123</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/views/detail.ejs</name>
+<size>3021</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/views/fileTree.ejs</name>
+<size>570</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/projectPortfolio/views/imgs</name>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/views/imgs/sample.jpg</name>
+<size>8326</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/views/imgs/sample.png</name>
+<size>4895</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/views/index.ejs</name>
+<size>2302</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/views/inner.ejs</name>
+<size>3576</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/projectPortfolio/views/license &amp; credits.txt</name>
+<size>1064</size>
+<commit
+   revision="7414">
+<author>jchen267</author>
+<date>2017-03-14T07:43:27.423740Z</date>
+</commit>
+</entry>
+</list>
+</lists>

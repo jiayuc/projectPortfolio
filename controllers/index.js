@@ -13,7 +13,7 @@ router.get('/index', function(req, res) {
     ];
 
     project.getAll(req.params.id, function(err, projects_info) {
-        console.log(projects_info); // passed from model
+        // console.log(projects_info); // passed from model
         res.render('index', {
             rootPath: projects_info.rootPath,
             project_nodes: projects_info.projects,
@@ -21,10 +21,9 @@ router.get('/index', function(req, res) {
             cover_pics: cover_pics
         });
     });
-
-    router.use('/', require('./router.js'));
-
 });
+
+router.use('/', require('./router.js'));
 
 
 module.exports = router;

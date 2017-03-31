@@ -4,12 +4,13 @@
 const FileTree = require('./FileTree');
 const ProjectNode = require('./ProjectNode');
 const RevisionNode = require('./RevisionNode');
+const db = require('./Database.js');
 
 const fs = require('fs'),
     xml2js = require('xml2js');
 
 /**
- * Fer the svn list for a given file
+ * Get the svn info for a given file
  * @param  {string}   filename - name of the file to get
  * @param  {Function} cb - callback passed in
  */
@@ -23,13 +24,30 @@ exports.get = function(filename, cb) {
 
 
 /**
- * Fer the svn list for all files
+ * Get the svn info for all files, store into data structure
+ * @param  {string}   project_pathname - name of the path to project
+ * @param  {Function} cb - call back function
+ */
+exports.getAll = function(project_pathname, cb) {
+    var projects = {};
+    var root_path = {};
+    parseSvnList('svn_list.xml', projects, root_path);
+    console.log("from parseSvnList: ", projects);
+    cb(null, {
+        projects: projects,
+        root_path: root_path
+    });
+};
+
+
+/**
+ * Get the svn commits for all files
  * @param  {string}   filename - name of the file to get
  * @param  {Function} cb - callback passed in
  */
 exports.getCommitsForFile = function(filePath, cb) {
     var revisions = {};
-    parseLogFile('svn_log.xml', revisions);
+    parseSvnLog('svn_log.xml', revisions);
     // get related commits
     var revision_arr = getRevisions(filePath, revisions);
     console.log('revision arr: ', revision_arr);
@@ -38,21 +56,12 @@ exports.getCommitsForFile = function(filePath, cb) {
 };
 
 
-// get all info about projects
-exports.getAll = function(id, cb) {
-    var projects = {};
-    var root_path = {};
-    parseSvnList('svn_list.xml', projects, root_path);
-
-    cb(null, {
-        projects: projects,
-        root_path: root_path
-    });
-};
-
-
-// read in the file
-const readInFile = function(filename) {
+/**
+ * read xml into file
+ * @param  {[type]} filename - filename of svn file
+ * @return {[type]}          - object of svn result 
+ */
+const readSvnFile = function(filename) {
     const parser = new xml2js.Parser();
     var data = fs.readFileSync(__dirname + '/data/' + filename);
     var res = null;
@@ -93,7 +102,7 @@ const writeToFile = function(filename, data) {
  */
 function parseSvnList(filename, projects, root_path) {
 
-    const listObj = readInFile(filename).lists.list;
+    const listObj = readSvnFile(filename).lists.list;
     root_path.path = listObj[0].$.path;
     const entries_arr = listObj[0].entry;
 
@@ -102,6 +111,8 @@ function parseSvnList(filename, projects, root_path) {
         var name = cur.name[0]; //including path info
         var nameArray = name.split('/');
         var projectName = nameArray[0];
+        var date = cur.commit[0].date;
+        var author = cur.commit[0].author;
 
         //for creating tree
         const type = cur.$.kind;
@@ -114,7 +125,7 @@ function parseSvnList(filename, projects, root_path) {
         if (!projects[projectName]) {
             var version = cur.commit[0].$.revision;
             var fileTree = new FileTree(projectName);
-            projects[projectName] = new ProjectNode(name, date, version, null, fileTree); //cannot set commit message currently 
+            projects[projectName] = new ProjectNode(name, date, version, author, fileTree); //cannot set commit message currently 
         } else {
             projects[projectName].fileTree.add(size, type, name);
         }
@@ -126,15 +137,15 @@ function parseSvnList(filename, projects, root_path) {
  * @param  {string} filename - filename of the svn log
  * @param  {object} revisions - will update to the revision object 
  */
-function parseLogFile(filename, revisions) {
-    const logObj = readInFile(filename);
+function parseSvnLog(filename, revisions) {
+    const logObj = readSvnFile(filename);
     const revisionArray = logObj.log.logentry;
     for (let i = 0; i < revisionArray.length; i++) {
         let revision = revisionArray[i];
         let number = revision.$.revision;
         let author = revision.author[0];
         let message = revision.msg[0];
-        let date = revision.date[0];
+        let date = revision.date;
         let revisionNode = new RevisionNode(number, author, message, date);
 
         let files = revision.paths[0].path;
@@ -176,3 +187,18 @@ exec(cmd, function(error, stdout, stderr) {
         console.log('Stdout: ', stdout);
     }
 });
+
+// insert projects data into mongodb
+function insertProjectDataToDB(cb) {
+    var projects = {};
+    var root_path = {};
+    parseSvnList('svn_list.xml', projects, root_path);
+    for (var project_name in projects) {
+        var project = projects[project_name];
+        db.insertProjectToDB(project_name, project.name, project.date, project.author, () => {console.log('in func');});
+    }
+    cb();
+}
+
+// call func to popuilate db
+// insertProjectDataToDB(() => {console.log('Inserted project data into mongodb!');} );
