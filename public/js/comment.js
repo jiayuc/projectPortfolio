@@ -4,13 +4,48 @@
 $(document).ready(function() {
 
     //mobile menu toggling
-    $("#menu_icon").click(function() {
-        $("header nav ul").toggleClass("show_menu");
-        $("#menu_icon").toggleClass("close_menu");
-        return false;
+    $('button#reply').click(function() {
+        var parent = $(this).closest('.cmmnt');
+        console.log('reply clicked', parent.attr('slug'));
+
+        // append hidden data to form
+        var data = {
+            discussion_id: parent.attr('discussion_id'),
+            parent_slug : parent.attr('slug'),
+            date: new Date($.now())
+        };
+        console.log('data: ', data);
+
+        // $(this).closest('form').on('submit', ()=> {
+        //     console.log('submitted! Lets reload');
+        //     location.reload();
+        // });
+            
+        $(this).closest('form').submit((event) => {
+            for (var p in data) {
+              if (data.hasOwnProperty(p)) {
+                  $('<input />').attr('type', 'hidden')
+                      .attr('name', p)
+                      .attr('value', data[p])
+                      .appendTo(this);
+              }
+            }
+          return true;
+        });
+        // $.ajax({
+        //     type: 'POST',
+        //     data: JSON.stringify(data),
+        //     contentType: 'application/json',
+        //     url: 'http://127.0.0.1:8081/comment/save',                      
+        //     success: function(data) {
+        //         console.log('success');
+        //         console.log(JSON.stringify(data));
+        //     }
+        // });
     });
 
 
+//============
     //Contact Page Map Centering
     var hw = $('header').width() + 50;
     var mw = $('#map').width();

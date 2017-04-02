@@ -1,4 +1,4 @@
-<li class="cmmnt">
+<li class="cmmnt" comment_id=<%= comment._id%> discussion_id='tmp/discussion/id' slug='slug_t' full_slug='full_slug_t'>
   <div class="avatar">
       <a href="javascript:void(0);"><img src="images/dark-cubes.png" width="55" height="55" alt="DarkCubes photo avatar">
       </a>
@@ -7,7 +7,6 @@
       <header>
           <a href="javascript:void(0);" class="userlink"><%= comment.author%></a> <span class="pubdate"><%= comment.pubdate%></span>
           <!-- helper buttons -->
-          <button id="reply" title="reply"><img class='icon' src="img/reply.svg" /></button>
           <button id="upvoke" title="upvoke"><img class='icon' src="img/upvoke.svg" /></button>
           <button id="display" title="votes"><%= comment.votes%></button>
           <button id="downvoke" title="downvoke"><img class='icon' src="img/downvoke.svg" /></button>
@@ -15,7 +14,13 @@
       <p><%= comment.content%></p>
       <% if (comment.mediaSrc != null) { %>
           <embed style=" width: 50%; height: auto;" src=<%= comment.mediaSrc%> >
-      <% } %>      
+      <% } %>
+      <!--  reply section -->
+      <form action='http://127.0.0.1:8081/comment/submit' method='post'>
+        <input type="text" id="author_name" value="" name="comment[author]" placeholder="Name"/>
+        <input type="text" name="comment[content]" placeholder="Your comments" />
+        <button id="reply" title="reply"><img class='icon' src="img/reply.svg" /></button>
+      </form>
   </div>
 
 
