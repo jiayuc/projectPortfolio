@@ -17,6 +17,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(require('./controllers'));
 
+// require('./models/Database.js');
 /**
  * Listen on specified port and print related info
  * @param {requestCallback} callback function to print host and port info

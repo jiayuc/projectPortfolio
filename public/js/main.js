@@ -22,11 +22,11 @@ $(document).ready(function() {
         "height": wh
     });
 
-    if (ww > 1100) {
-        $('#map').css({
-            "margin-left": hw
-        });
-    }
+    // if (ww > 1100) {
+    //     $('#map').css({
+    //         "margin-left": hw
+    //     });
+    // }
 
     // added onclick for each file
     $(".filename").click(function() {

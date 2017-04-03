@@ -10,6 +10,10 @@ var bodyParser = require('body-parser');
 // create application/json parser
 var jsonParser = bodyParser.json();
 
+// prevet favicon 
+router.get('/favicon.ico', function(req, res) {
+    res.send(204);
+});
 
 // added router for testing comment
 router.get("/comment", function(req, res) {
@@ -22,17 +26,6 @@ router.get("/comment", function(req, res) {
         });
 });
 
-// route to detailed file page
-router.get("/path", function(req, res) {
-    console.log('Entering filename?', req.query.filename);
-
-    project.getCommitsForFile(req.query.filename, function(err, revisions) {
-        res.render('detail', {
-            filepath: req.query.filename,
-            revisions: revisions
-        });
-    });
-});
 
 // route to detailed file page
 router.post("/comment/save", jsonParser, function(req, res) {
@@ -42,45 +35,74 @@ router.post("/comment/save", jsonParser, function(req, res) {
             console.log('comment inserted');
             // res.send(req.body);
         });
-    // project.getCommitsForFile(req.query.filename, function(err, revisions) {
-    //     res.render('detail', {
-    //         filepath: req.query.filename,
-    //         revisions: revisions
-    //     });
-    // });
 });
 
 router.post("/comment/tmp", jsonParser, function(req, res) {
     console.log('Entering tmp: ', req.body, '\nend req body');
-    // project.getCommitsForFile(req.query.filename, function(err, revisions) {
-    //     res.render('detail', {
-    //         filepath: req.query.filename,
-    //         revisions: revisions
-    //     });
-    // });
 });
 
+// handle post for submit new comment
 router.post("/comment/submit", bodyParser.urlencoded(), function(req, res) {
-    console.log(req.body.comment.author);
     console.log('Entering submit: ', req.body, '\nend req body');
     db.insert_comment(req.body,
-        () => {});
+        (comment) => {
+            console.log("new comment: ", comment);
+
+            var fs = require('fs');
+            var templateString = fs.readFileSync(require('path').join(__dirname, '../views') + '/comment_single.ejs', 'utf-8');
+            res.send({ html: require('ejs').render(templateString, { comment: comment.ops[0] }) });
+        });
 });
+
+// update comment votes 
+router.post("/comment/voteUpdate", bodyParser.urlencoded(), function(req, res) {
+    console.log('Entering voteUpdate: ', req.body, '\nend req body');
+    db.updateVotes(req.body,
+        (new_votes) => { res.send(new_votes); }
+    );
+
+});
+// route to detailed file page
+router.get("/path", function(req, res) {
+    console.log('Entering filename?', req.query.filename);
+
+    project.getCommitsForFile(req.query.filename, function(err, commits) {
+        db.getCommentsByPathname(req.query.filename, 'votes',
+            (comments) => {
+                console.log(req.query.filename, comments);
+                res.render('detail', {
+                    filepath: req.query.filename,
+                    revisions: commits,
+
+                    name: req.query.filename,
+                    comments: comments
+                });
+            }); // end db
+
+    });
+});
+
 
 // route to project page
 router.get('/:name', function(req, res) {
     console.log('Entering /project/:name?');
 
-    project.get(req.params.name, function(err, project) {
-        res.render('inner', {
-            name: project.name,
-            date: project.date,
-            size: project.size,
-            version: project.version,
-            summary: project.summary,
+    project.get(req.params.name, function(err, commits) {
+        db.getCommentsByPathname(commits.name, 'votes',
+            (comments) => {
+                res.render('inner', {
+                    name: commits.name,
+                    date: commits.date,
+                    size: commits.size,
+                    version: commits.version,
+                    summary: commits.summary,
 
-            fileTree: project.fileTree.root.children
-        });
+                    fileTree: commits.fileTree.root.children,
+                    comments: comments,
+                    comment_sort_by: 'votes'
+                });
+            }); // end db
+
     });
 });
 

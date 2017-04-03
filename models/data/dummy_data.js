@@ -4,8 +4,7 @@ function ObjectId(str) {return str;}
 
 exports.data = [
     {
-        "_id" : ObjectId("58e161e139e5cc54eb8c9d89"),
-        "discussion_id" : "Assignment1/ChessGame/.idea/description.html",
+        "discussion_id" : "Assignment0",
         "parent_id" : null,
         "slug" : "hello",
         "full_slug" : "Sun Apr 02 2017 13:41:03 GMT-0700 (PDT):hello",
@@ -15,8 +14,7 @@ exports.data = [
         "votes" : 0
     },
     {
-        "_id" : ObjectId("58e1624cbee3385540af9640"),
-        "discussion_id" : "Assignment1/ChessGame/.idea/description.html",
+        "discussion_id" : "Assignment0",
         "parent_id" : null,
         "slug" : "hello",
         "full_slug" : "Sun Apr 02 2017 13:42:51 GMT-0700 (PDT):hello",
@@ -26,8 +24,7 @@ exports.data = [
         "votes" : 0
     },
     {
-        "_id" : ObjectId("58e165811a7550571b2f47c9"),
-        "discussion_id" : "Assignment1/ChessGame/.idea/description.html",
+        "discussion_id" : "Assignment0",
         "parent_id" : ObjectId("58e161e139e5cc54eb8c9d89"),
         "slug" : "hello/hello",
         "full_slug" : "Sun Apr 02 2017 13:41:03 GMT-0700 (PDT):hello/Sun Apr 02 2017 13:56:31 GMT-0700 (PDT):hello",
@@ -37,8 +34,7 @@ exports.data = [
         "votes" : 0
     },
     {
-        "_id" : ObjectId("58e165a01a7550571b2f47ca"),
-        "discussion_id" : "Assignment1/ChessGame/.idea/description.html",
+        "discussion_id" : "Assignment0",
         "parent_id" : ObjectId("58e161e139e5cc54eb8c9d89"),
         "slug" : "hello/hello",
         "full_slug" : "Sun Apr 02 2017 13:41:03 GMT-0700 (PDT):hello/Sun Apr 02 2017 13:57:02 GMT-0700 (PDT):hello",
@@ -48,8 +44,7 @@ exports.data = [
         "votes" : 0
     },
     {
-        "_id" : ObjectId("58e165b41a7550571b2f47cb"),
-        "discussion_id" : "Assignment1/ChessGame/.idea/description.html",
+        "discussion_id" : "Assignment0",
         "parent_id" : ObjectId("58e165811a7550571b2f47c9"),
         "slug" : "hello/hello",
         "full_slug" : "Sun Apr 02 2017 13:41:03 GMT-0700 (PDT):hello/Sun Apr 02 2017 13:57:23 GMT-0700 (PDT):hello",
@@ -59,8 +54,7 @@ exports.data = [
         "votes" : 0
     },
     {
-        "_id" : ObjectId("58e165c31a7550571b2f47cc"),
-        "discussion_id" : "Assignment1/ChessGame/.idea/description.html",
+        "discussion_id" : "Assignment0",
         "parent_id" : null,
         "slug" : "hello",
         "full_slug" : "Sun Apr 02 2017 13:57:37 GMT-0700 (PDT):hello",
@@ -70,8 +64,7 @@ exports.data = [
         "votes" : 0
     },
     {
-        "_id" : ObjectId("58e165d21a7550571b2f47cd"),
-        "discussion_id" : "Assignment1/ChessGame/.idea/description.html",
+        "discussion_id" : "Assignment0",
         "parent_id" : ObjectId("58e165c31a7550571b2f47cc"),
         "slug" : "hello/hello",
         "full_slug" : "Sun Apr 02 2017 13:41:03 GMT-0700 (PDT):hello/Sun Apr 02 2017 13:57:53 GMT-0700 (PDT):hello",
@@ -81,8 +74,7 @@ exports.data = [
         "votes" : 0
     },
     {
-        "_id" : ObjectId("58e1664b1a7550571b2f47ce"),
-        "discussion_id" : "Assignment1/ChessGame/.idea/description.html",
+        "discussion_id" : "Assignment0",
         "parent_id" : ObjectId("58e165c31a7550571b2f47cc"),
         "slug" : "hello/hello",
         "full_slug" : "Sun Apr 02 2017 13:41:03 GMT-0700 (PDT):hello/Sun Apr 02 2017 13:57:53 GMT-0700 (PDT):hello",
