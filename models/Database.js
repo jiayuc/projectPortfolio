@@ -248,21 +248,13 @@ exports.updateVotes = (comment_info, callback) => {
 };
 
 function generate_pseudorandom_slug() {
-    return 'hello';
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    var text;
+
+    for( var i=0; i < 15; i++ ) {
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+    }
+
+    return text;
 }
 // init_comments_from_dummies('./data/dummy_data.js');
-// getCommentsByPathname("Assignment1/ChessGame/.idea/description.html");
-	// var id = '58e217379e28341366e86371';
- //    var cb = (err, db) => {
- //        if (err) throw err;
- //        // var ret = createCollectionsInDB(db);
- //        var id_ob = new ObjectId(id);
- //        console.log('id_ob', id_ob);
-
- //        db.collection('comments').findOne({
- //            "_id": id_ob
- //        }, (err, items) => {
- //            console.log("items under pathname ", id, ": ",  items);
- //        });
- //    };
- //    connectToDB(cb);

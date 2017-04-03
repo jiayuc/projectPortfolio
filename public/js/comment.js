@@ -72,7 +72,7 @@ $(document).ready(function() {
             for (var p in data) {
                 var hasHiddenField = false;//($(this).find('input [name='+ p +']').length) === 0;
                 if (data.hasOwnProperty(p) && hasHiddenField===false) {
-                    console.log('===Appending input html', this);
+                    // console.log('===Appending input html', this);
                     $('<input />').attr('type', 'hidden')
                         .attr('name', p)
                         .attr('value', data[p])
@@ -92,7 +92,8 @@ $(document).ready(function() {
                     // console.log('reply form got res: ', data); 
                     var cmn_li = $(this).closest('li.cmmnt');
                     if (cmn_li.get().length === 0) {
-                        $(this).closest('div#container').find('li.cmmnt').first().append(data.html);
+                        console.log('First comment');
+                        $(this).closest('div#container').find('ul#comments').first().append(data.html);
                     } else {
                         cmn_li.append(data.html);
                     }
