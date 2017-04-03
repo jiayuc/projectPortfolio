@@ -78,22 +78,98 @@ exports.createCollectionInDB = (collection_name) => {
     connectToDB(cb);
 };
 
+// get comments from db of the given pathname, sort by given order
 exports.getCommentsByPathname = (pathname, sort_by, callback) => {
     var cb = (err, db) => {
         if (err) throw err;
-        // var ret = createCollectionsInDB(db);
-        db.collection('comments').find({
-            "discussion_id": pathname
-        }).sort({ sort_by: 1 }).toArray((err, items) => {
-            items = construct_nested_comments(items);
-            console.log("items under pathname ", pathname, ": ",  items);
-            if (callback)
-                return callback(items); //!!!
-        });
+        if (sort_by === 'pubdate' ) {
+            console.log('In pubdate\n\n');
+            db.collection('comments').find({
+                "discussion_id": pathname
+            }).toArray((err, items) => {
+                items = construct_nested_comments(items);
+                console.log("items under pathname ", pathname, ": ",  items);
+                if (callback)
+                    return callback(items); //!!!
+            });
+
+        } else if (sort_by =='number_replies') {
+            db.collection('comments').find({
+                "discussion_id": pathname
+            }).sort({ sort_by: 1 }).toArray((err, items) => {
+                items = construct_nested_comments(items);
+                console.log("items under pathname ", pathname, ": ",  items);
+                if (callback)
+                    return callback(items); //!!!
+            });
+
+        } else { // sort by votes
+            db.collection('comments').find({
+                "discussion_id": pathname
+            }).sort( 'votes', -1 ).toArray((err, items) => {
+
+                console.log("items under pathname ", pathname, ": ",  items);
+                if (callback)
+                    return callback(items); //!!!
+            });
+
+        }
     };
     return connectToDB(cb);
 };
 
+
+
+// exports.getCommentsByPathname = (pathname, sort_by, callback) => {
+//     var cb = (err, db) => {
+//         if (err) throw err;
+//         // var ret = createCollectionsInDB(db);
+//         db.collection('comments').find({
+//             "discussion_id": pathname
+//         }).sort({ sort_by: 1 }).toArray((err, items) => {
+//             items = construct_nested_comments(items);
+//             console.log("items under pathname ", pathname, ": ",  items);
+//             if (callback)
+//                 return callback(items); //!!!
+//         });
+//     };
+//     return connectToDB(cb);
+// };
+
+
+
+
+// sort by date
+function construct_nested_comments_timer(comments_arr) {
+    comments_arr.sort(function(a,b){
+        return timewise_smaller(a.pubdate, b.pubdate);
+    });
+    return comments_arr;
+}
+
+function time_parser(datestring1) {
+    var monthmap = {
+        'Jan':1, 'Feb':2, 'Mar':3, 'Apr':4, 'May':5,
+        'Jun':6, 'Jul':7, 'Aug':8, 'Sep':9, 'Oct':10,
+        'Nov':11, 'Dec':12
+    };
+
+    var split1 = datestring1.split(' ');
+
+    return {year:split1[3], month: monthmap[split1[1]], 
+        date: split1[2], time: split1[4]};
+}
+
+function timewise_smaller(datestring1, datestring2) {
+    var time1 = time_parser(datestring1);
+    var time2 = time_parser(datestring2);
+    if(time1.year < time2.year || time1.month<time2.month || time1.date<time2.date || time1.time<time2.time){
+        return 1;
+    }
+    else{
+        return -1;
+    }
+}
 /**
  * return array of sub-roots and map from id to childrenID
  * @param  {Array} comment_arr - array of raw comments
@@ -150,6 +226,10 @@ function construct_nested_comments(comments_arr) {
     return trees;
 }
 
+/**
+ * Helper function to populate db with dummy data
+ * @param  {String} dummy_filename - filepath to dunmmy file
+ */
 function init_comments_from_dummies(dummy_filename) {
     const dummy_data = require(dummy_filename);
     var cb = (err, db) => {

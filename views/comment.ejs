@@ -17,8 +17,18 @@
 </head>
 
 <body>
+
     <div id="w">
         <h1>Comment section</h1>
+    <!-- sory by selector -->
+        <div id="container">
+            Sort by: 
+            <select id="sort_by" onChange="window.document.location.href=this.options[this.selectedIndex].value;">
+              <option value="pubdate">Posted time</option>
+              <option value="votes">Votes</option>
+              <option value="number_replies">Number of replies</option>
+            </select>   
+            <div id="message"></div>
 
         <div id="container" discussion_id=<%= name%>>
             <!-- submit new comment here -->

@@ -65,7 +65,7 @@ router.post("/comment/voteUpdate", bodyParser.urlencoded(), function(req, res) {
 // route to detailed file page
 router.get("/path", function(req, res) {
     var str = req.query.filename;
-    var delim = '/sort_by=';
+    var delim = '&sort_by=';
     var lastIndex = str.lastIndexOf(delim);
     var filename = str.substr(0, lastIndex);
     var sort_by = 'pubdate'; // default
@@ -97,7 +97,7 @@ router.get("/path", function(req, res) {
 // route to project page
 router.get('/:name', function(req, res) {
     var str = req.params.name;
-    var delim = '/sort_by=';
+    var delim = '&sort_by=';
     var lastIndex = str.lastIndexOf(delim);
     var filename = str;
     var sort_by = 'pubdate'; // default

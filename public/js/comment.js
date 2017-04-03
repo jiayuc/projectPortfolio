@@ -2,7 +2,8 @@
 "use strict";
 
 function ObjectId(str) {
-    return str; }
+    return str;
+}
 
 /**
  * update vote to database, then update the html view
@@ -12,7 +13,7 @@ function ObjectId(str) {
 function update_votes(context, change_by) {
     var vote_display = $(context).closest('div:has("form")')
         .find('button#display');
-    console.log('vote display: ', vote_display, '----\n', vote_display.html() );
+    console.log('vote display: ', vote_display, '----\n', vote_display.html());
     // get hidden info for database update use
     var parent = $(context).closest('.cmmnt');
 
@@ -20,15 +21,15 @@ function update_votes(context, change_by) {
             _id: parent.attr('_id'),
             votes: vote_display.html(),
             add: change_by == 1
-        },
-        (result) => {
-            vote_display[0].innerHTML  = result.votes;
+        }, (result) => {
+            vote_display[0].innerHTML = result.votes;
         });
 }
 
 $(document).ready(function() {
 
     $('button#upvoke').click(function() {
+        
         console.log('upvoke clicked');
         update_votes(this, 1);
     });
@@ -36,10 +37,9 @@ $(document).ready(function() {
     $('button#downvoke').click(function() {
         console.log('downvoke clicked');
         update_votes(this, -1);
-       
+
     });
 
-    //mobile menu toggling
     $('button#reply').click(function() {
         console.log('reply clicked', this);
         var parent = $(this).closest('.cmmnt');
@@ -60,18 +60,11 @@ $(document).ready(function() {
         };
 
 
-        // $(this).closest('form').on('submit', (e)=> {
-        //     e.preventDefault();
-        //     console.log('submitted! Lets reload');
-        // setTimeout(function() {
-        //      window.location.reload();
-        // },2);     
-        
         $(this).closest('form').submit((e) => {
             console.log('data: ', data);
             for (var p in data) {
-                var hasHiddenField = false;//($(this).find('input [name='+ p +']').length) === 0;
-                if (data.hasOwnProperty(p) && hasHiddenField===false) {
+                var hasHiddenField = false; //($(this).find('input [name='+ p +']').length) === 0;
+                if (data.hasOwnProperty(p) && hasHiddenField === false) {
                     // console.log('===Appending input html', this);
                     $('<input />').attr('type', 'hidden')
                         .attr('name', p)
@@ -79,16 +72,16 @@ $(document).ready(function() {
                         .appendTo(this);
                 }
             }
-            
+
             e.preventDefault(); // Prevents the page from refreshing
-            var $this = $(this).closest('form'); 
+            var $this = $(this).closest('form');
             // console.log('this: ', this, ' vs. ', $this);
             $.post(
                 $this.attr("action"), // Gets the URL to sent the post to
                 $this.serialize(), // Serializes form data in standard format
                 // his refers to the current form element
                 // console.log('this is ', this, '$this is: ', $this);
-                (data) => { 
+                (data) => {
                     // console.log('reply form got res: ', data); 
                     var cmn_li = $(this).closest('li.cmmnt');
                     if (cmn_li.get().length === 0) {
@@ -99,91 +92,19 @@ $(document).ready(function() {
                     }
                 },
                 "json" // The format the response should be in
-            );            
+            );
             // return true;
         });
-        // });
-        // $.ajax({
-        //     type: 'POST',
-        //     data: JSON.stringify(data),
-        //     contentType: 'application/json',
-        //     url: 'http://127.0.0.1:8081/comment/save',                      
-        //     success: function(data) {
-        //         console.log('success');
-        //         console.log(JSON.stringify(data));
-        //     }
-        // });
+
     });
 
-
-    //============
-    //Contact Page Map Centering
-    var hw = $('header').width() + 50;
-    var mw = $('#map').width();
-    var wh = $(window).height();
-    var ww = $(window).width();
-
-    $('#map').css({
-        "max-width": mw,
-        "height": wh
-    });
-
-    if (ww > 1100) {
-        $('#map').css({
-            "margin-left": hw
-        });
-    }
-
-    // added onclick for each file
-    $(".filename").click(function() {
-        var filename = $(this).attr("filename");
-        var base_url = window.location.origin;
-        location.href = base_url + "/path?filename=" + filename;
+    // added onclick for change sort by
+    $("select#sort_by").change(function() {
+        var value = '&sort_by=' + this.value;
+        var base_url = $(location).attr('href');
+        console.log('Change sorting: ', base_url + value);
+        location.href = base_url + value;
         return false;
     });
-
-    //Tooltip
-    $("a").mouseover(function() {
-
-        var attr_title = $(this).attr("data-title");
-
-        if (attr_title == undefined || attr_title == "") return false;
-
-        $(this).after('<span class="tooltip"></span>');
-
-        var tooltip = $(".tooltip");
-        tooltip.append($(this).data('title'));
-
-
-        var tipwidth = tooltip.outerWidth();
-        var a_width = $(this).width();
-        var a_hegiht = $(this).height() + 3 + 4;
-
-        //if the tooltip width is smaller than the a/link/parent width
-        if (tipwidth < a_width) {
-            tipwidth = a_width;
-            $('.tooltip').outerWidth(tipwidth);
-        }
-
-        var tipwidth = '-' + (tipwidth - a_width) / 2;
-        $('.tooltip').css({
-            'left': tipwidth + 'px',
-            'bottom': a_hegiht + 'px'
-        }).stop().animate({
-            opacity: 1
-        }, 200);
-
-
-    });
-
-    $("a").mouseout(function() {
-        var tooltip = $(".tooltip");
-        tooltip.remove();
-    });
-
-
-// jQuery(function(){
-//       jQuery('button#upvoke')[0].click();
-//     });
 
 });
