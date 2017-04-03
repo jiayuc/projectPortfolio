@@ -43,9 +43,9 @@ $(document).ready(function() {
     $('button#reply').click(function() {
         console.log('reply clicked');
         var parent = $(this).closest('.cmmnt');
-        var container = $(this).closest('#container');
+        var container = $(this).closest('div#container');
         console.log('parent: ', parent.get(), 'container', container, '====');
-        console.log(container.attr('comment_id'));
+        console.log('discussion_id: ', container.attr('discussion_id'));
         // append hidden data to form
         var data = parent.get().length ? {
             parent_id: parent.attr('comment_id'),
@@ -66,12 +66,13 @@ $(document).ready(function() {
         // setTimeout(function() {
         //      window.location.reload();
         // },2);     
-
+        
         $(this).closest('form').submit((e) => {
             console.log('data: ', data);
             for (var p in data) {
                 var hasHiddenField = ($(this).find('input [name='+ p +']').length) === 0;
                 if (data.hasOwnProperty(p) && hasHiddenField===false) {
+                    console.log('===Appending input html', this);
                     $('<input />').attr('type', 'hidden')
                         .attr('name', p)
                         .attr('value', data[p])
@@ -79,8 +80,11 @@ $(document).ready(function() {
                 }
             }
             e.preventDefault(); // Prevents the page from refreshing
-            var $this = $(this).closest('form'); // `this` refers to the current form element
+            
             $.post(
+
+                var $this = $(this).closest('form'); // `this` refers to the current form element
+                console.log('this is ', this, '$this is: ', $this);
                 $this.attr("action"), // Gets the URL to sent the post to
                 $this.serialize(), // Serializes form data in standard format
                 (data) => { 

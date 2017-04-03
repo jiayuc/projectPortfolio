@@ -240,7 +240,7 @@ exports.updateVotes = (comment_info, callback) => {
 		    (err, result)=> {
 		    			  if (err) throw(err);
 		    			  console.log('result: ', result);
-		                  if (callback) callback({votes: result.value? result.value.votes : comment_info.votes}); }
+		                  if (callback) callback({votes: result.value? result.value.votes + change: comment_info.votes}); }
 		 );
     };
     connectToDB(cb);
