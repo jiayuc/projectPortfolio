@@ -1,4 +1,4 @@
-<li class="cmmnt" comment_id=<%= comment._id%> discussion_id='tmp/discussion/id' slug='slug_t' full_slug='full_slug_t'>
+<li class="cmmnt" comment_id=<%= comment._id%> discussion_id=<%= comment.discussion_id%> slug=<%=comment.slug%> full_slug=<%= comment.full_slug%> >
   <div class="avatar">
       <a href="javascript:void(0);"><img src="images/dark-cubes.png" width="55" height="55" alt="DarkCubes photo avatar">
       </a>
@@ -24,7 +24,7 @@
   </div>
 
 
-  <% if (comment.children.length > 0) { %>
+  <% if (comment.children && comment.children.length > 0) { %>
     <ul class="replies">
           <% for(var i=0; i<comment.children.length; i++) {%>
             <%- include('comment_single', {comment: comment.children[i]}); %>   

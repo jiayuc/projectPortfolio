@@ -83,16 +83,72 @@ exports.getCommentsByPathname = (pathname, callback) => {
         if (err) throw err;
         // var ret = createCollectionsInDB(db);
         db.collection('comments').find({
-            "section_pathname": pathname
-        }).toArray((err, items) => {
-            // console.log(items);
+            "discussion_id": pathname
+        }).sort({full_slug: 1}).toArray((err, items) => {
+            items = construct_nested_comments(items);
+            console.log("items: ", items);
             if (callback)
                 return callback(items); //!!!
-            return items;
         });
     };
     return connectToDB(cb);
 };
+
+/**
+* return array of sub-roots and map from id to childrenID
+**/
+function preprocess(comment_arr) {
+    var roots = [];
+    var idToChildrenID = {};
+    var idToJson = {};
+    
+    comment_arr.forEach( (comment) => {
+       idToChildrenID[comment._id] = [];
+       idToJson[comment._id] = JSON.parse(JSON.stringify(comment)); // deep copy
+    }); 
+    // find roots
+    comment_arr.forEach( (comment) => {
+       if (!(comment.parent_id in idToChildrenID)) {
+           roots.push(comment._id);
+       } else {
+           idToChildrenID[comment.parent_id].push(comment._id);
+       }
+    }); 
+    console.log('Roots: ', roots, " idToChildrenID: ", idToChildrenID, "idToJson: ", idToJson);
+    return {roots: roots, idToChildrenID: idToChildrenID, idToJson: idToJson};
+}
+
+/**
+ * Construct nested comments from raw data arr from db
+ * @param  {Array} comments_arr  - array of comments
+ * @return {Array}              - array of nested comments
+ */
+function construct_nested_comments(comments_arr) {
+    console.log('in construct_nested_comments');
+      var trees = []; // nested tree to return 
+      var ret = preprocess(comments_arr);
+      var roots = ret.roots;
+      var idToChildrenID = ret.idToChildrenID;
+      var idToJson = ret.idToJson;
+
+    function buildtree(root_id) {
+          var tree =  JSON.parse(JSON.stringify(idToJson[root_id]));
+          tree.children = [];
+          console.log('idToChildrenID[', root_id, ']: ', idToChildrenID[root_id]);
+          idToChildrenID[root_id].forEach( (children_id) => {
+              tree.children.push(buildtree(children_id));
+          });
+          return tree;
+      }
+
+      for (let i=0; i<roots.length; ++i) {
+          var root_id = roots[i];
+          console.log('Subroot id, lets build root tree: ', root_id);
+          trees.push(buildtree(root_id));
+      }
+    
+      return trees;
+}
 
 function init_comments_from_dummies(dummy_filename) {
     const dummy_data = require(dummy_filename);
@@ -119,24 +175,27 @@ function init_comments_from_dummies(dummy_filename) {
  * @param  {Function} callback     - to be call after the insert
  */
 exports.insert_comment = (comment_json, callback) => {
-
+	console.log("[insert comment]", comment_json);
     var cb = (err, db) => {
         if (err) throw err;
 
         // generate the unique portions of the slug and full_slug
         var slug_part = generate_pseudorandom_slug();
-        var full_slug_part = comment_json.date + ':' + slug_part; //.strftime('%Y.%m.%d.%H.%M.%S') 
-        var slug, full_slug;
+        var full_slug_part = comment_json.pubdate + ':' + slug_part; //.strftime('%Y.%m.%d.%H.%M.%S') 
+        var slug, full_slug, parent_id = null;
         var insert_to_db = () => {
             db.collection('comments')
                 .insert({
                     'discussion_id': comment_json.discussion_id,
+                    'parent_id': parent_id,
                     'slug': slug,
                     'full_slug': full_slug,
-                    'date': comment_json.date,
+                    'pubdate': comment_json.pubdate,
                     'author': comment_json.comment.author,
-                    'content': comment_json.comment.content
+                    'content': comment_json.comment.content,
+                    'votes': 0
                 }, () => {
+                	console.log('insered comment');
                     if (callback) callback();
                 });
         };
@@ -151,6 +210,7 @@ exports.insert_comment = (comment_json, callback) => {
                     console.log('Found parent in db?', parent);
                     slug = parent.slug + '/' + slug_part;
                     full_slug = parent.full_slug + '/' + full_slug_part;
+                    parent_id = parent._id;
                     insert_to_db();
                 }
             );
@@ -163,6 +223,7 @@ exports.insert_comment = (comment_json, callback) => {
 
     };
     connectToDB(cb);
+
 };
 
 function generate_pseudorandom_slug() {

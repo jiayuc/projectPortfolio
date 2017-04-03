@@ -13,13 +13,13 @@ var jsonParser = bodyParser.json();
 
 // added router for testing comment
 router.get("/comment", function(req, res) {
-    db.getCommentsByPathname("Assignment1/ChessGame/.idea/description.html", 
-        (comments)=> {
+    db.getCommentsByPathname("Assignment1/ChessGame/.idea/description.html",
+        (comments) => {
             console.log("comments: ", comments);
             res.render('comment', {
-                comments : comments
+                comments: comments
             });
-    });
+        });
 });
 
 // route to detailed file page
@@ -37,8 +37,21 @@ router.get("/path", function(req, res) {
 // route to detailed file page
 router.post("/comment/save", jsonParser, function(req, res) {
     console.log('Entering save: ', req.body, '\nend req body');
-    db.insert_comment(req.body, 
-         () => { res.send(req.body);});
+    db.insert_comment(req.body,
+        () => {
+            console.log('comment inserted');
+            // res.send(req.body);
+        });
+    // project.getCommitsForFile(req.query.filename, function(err, revisions) {
+    //     res.render('detail', {
+    //         filepath: req.query.filename,
+    //         revisions: revisions
+    //     });
+    // });
+});
+
+router.post("/comment/tmp", jsonParser, function(req, res) {
+    console.log('Entering tmp: ', req.body, '\nend req body');
     // project.getCommitsForFile(req.query.filename, function(err, revisions) {
     //     res.render('detail', {
     //         filepath: req.query.filename,
@@ -50,8 +63,8 @@ router.post("/comment/save", jsonParser, function(req, res) {
 router.post("/comment/submit", bodyParser.urlencoded(), function(req, res) {
     console.log(req.body.comment.author);
     console.log('Entering submit: ', req.body, '\nend req body');
-    db.insert_comment(req.body, 
-         () => { } );
+    db.insert_comment(req.body,
+        () => {});
 });
 
 // route to project page

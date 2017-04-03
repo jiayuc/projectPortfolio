@@ -20,7 +20,14 @@
     <div id="w">
         <h1>Comment section</h1>
 
-        <div id="container">
+        <div id="container" discussion_id='Assignment1/ChessGame/.idea/description.html'>
+            <!-- submit new comment here -->
+            <form action='http://127.0.0.1:8081/comment/submit' method='post'>
+                <input type="text" id="author_name" value="" name="comment[author]" placeholder="Name"/>
+                <input type="text" name="comment[content]" placeholder="Your comments" />
+                <button id="reply" title="reply"><img class='icon' src="img/reply.svg" /></button>
+            </form>
+
             <ul id="comments">
             <% for(var i=0; i<comments.length; i++) {%>
               <%- include('comment_single', {comment: comments[i]}); %>   
