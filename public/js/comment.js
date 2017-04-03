@@ -41,7 +41,7 @@ $(document).ready(function() {
 
     //mobile menu toggling
     $('button#reply').click(function() {
-        console.log('reply clicked');
+        console.log('reply clicked', this);
         var parent = $(this).closest('.cmmnt');
         var container = $(this).closest('div#container');
         console.log('parent: ', parent.get(), 'container', container, '====');
@@ -70,7 +70,7 @@ $(document).ready(function() {
         $(this).closest('form').submit((e) => {
             console.log('data: ', data);
             for (var p in data) {
-                var hasHiddenField = ($(this).find('input [name='+ p +']').length) === 0;
+                var hasHiddenField = false;//($(this).find('input [name='+ p +']').length) === 0;
                 if (data.hasOwnProperty(p) && hasHiddenField===false) {
                     console.log('===Appending input html', this);
                     $('<input />').attr('type', 'hidden')
@@ -79,16 +79,17 @@ $(document).ready(function() {
                         .appendTo(this);
                 }
             }
-            e.preventDefault(); // Prevents the page from refreshing
             
+            e.preventDefault(); // Prevents the page from refreshing
+            var $this = $(this).closest('form'); 
+            // console.log('this: ', this, ' vs. ', $this);
             $.post(
-
-                var $this = $(this).closest('form'); // `this` refers to the current form element
-                console.log('this is ', this, '$this is: ', $this);
                 $this.attr("action"), // Gets the URL to sent the post to
                 $this.serialize(), // Serializes form data in standard format
+                // his refers to the current form element
+                // console.log('this is ', this, '$this is: ', $this);
                 (data) => { 
-                    console.log('reply form got res: ', data); 
+                    // console.log('reply form got res: ', data); 
                     var cmn_li = $(this).closest('li.cmmnt');
                     if (cmn_li.get().length === 0) {
                         $(this).closest('div#container').find('li.cmmnt').first().append(data.html);
